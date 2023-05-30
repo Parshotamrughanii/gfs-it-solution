@@ -1,0 +1,11 @@
+.learn_more_button{
+    margin-top: 1rem;
+  padding: 5px 20px;
+    background: #ffffff;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 150%;
+    border: none;
+    color: #181818;
+  }

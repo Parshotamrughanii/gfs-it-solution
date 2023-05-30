@@ -1,0 +1,78 @@
+.CarrersBanner {
+    background: url("../assets/images/contact//contact-bg.png");
+    /* background-position: center; */
+    background-size: cover;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    color: white;
+  }
+  
+  .CarrersBanner h1 {
+    font-family: Montserrat-ExtraBold;
+    text-transform: uppercase;
+    font-size: 90px;
+    white-space: nowrap;
+    
+  }
+  
+  .CarrersBanner p {
+    font-family: Montserrat-Medium;
+    font-size: 1.1rem;
+  }
+  /* Device responsiveness */
+  @media (max-width: 1024px) {
+    .CarrersBanner h1 {
+      font-family: Montserrat-ExtraBold;
+      text-transform: uppercase;
+      font-size: 111px;
+  }
+    .CarrersBanner {
+      min-height: 0;
+      display: grid;
+      align-items: center;
+      padding: 11rem 0;
+      color: white;
+  }
+  
+  }
+  
+  @media (max-width: 991px) {
+    .CarrersBanner {
+      min-height: 0;
+      display: grid;
+      align-items: center;
+      padding: 7rem 0;
+      color: white;
+  }
+    .CarrersBanner h1 {
+      font-family: Montserrat-ExtraBold;
+      text-transform: uppercase;
+      font-size: 84px;
+  }
+  .CarrersBanner p {
+    font-family: Montserrat-Medium;
+    font-size: 17px;
+  }
+  
+  }
+  
+  @media (max-width: 767px) {
+    .CarrersBanner h1 {
+      font-family: Montserrat-ExtraBold;
+      text-transform: uppercase;
+      font-size: 40px;
+  }
+  .CarrersBanner p {
+    font-family: Montserrat-Medium;
+    font-size: 12px;
+  } 
+  .CarrersBanner {
+    min-height: 0;
+    display: grid;
+    align-items: center;
+    padding: 4rem 0;
+    color: white;
+  }
+     
+  }
