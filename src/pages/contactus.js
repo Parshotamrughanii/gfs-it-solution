@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
-import ContactBanner from '../../components/contactBanner'
 import { Navbar } from '../../components/Navbar'
 import Footer from "../../components/Footer";
 import UseIntersectionAnimations from "../../components/UseIntersectionAnimations";
+import ContactBanner from "../../components/ContactBanner";
 
 
 
