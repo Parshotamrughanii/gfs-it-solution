@@ -1,0 +1,20 @@
+import React from 'react'
+import Image from 'next/image'
+import Style from '../styles/PageNotFound.module.css'
+import Link from 'next/link'
+const PageNotFound = () => {
+  return (
+    <div>
+      <div className={Style.notfound}>
+        <h1>404</h1>
+        <h3>Page Not Found</h3>
+        <Image src={require('../assets/images/pnf.png')} />
+       <Link href="/">
+       <button>Back to Homepage</button>
+       </Link>
+      </div>
+    </div>
+  )
+}
+
+export default PageNotFound

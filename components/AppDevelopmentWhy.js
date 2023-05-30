@@ -9,10 +9,10 @@ const AppDevelopmentWhy = ({ img, title, subTitle, description }) => {
           <div className="row">
             <div className="col-12 col-md-6">
               <div className="mobile-app-why">
-                <Image
+              <Image
                   src={require(`../src/assets//images/resuable-components/${img}.png`)}
                   alt="app-develpment"
-                  className="animate-right"
+                  className="animate-left"
                 />
               </div>
             </div>

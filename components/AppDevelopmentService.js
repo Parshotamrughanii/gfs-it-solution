@@ -2,13 +2,13 @@ import Head from "next/head";
 import React from "react";
 import Slider from "react-slick";
 
-const AppDevelopmentService = ({ headingTitle, data }) => {
+const AppDevelopmentService = ({ headingTitle, data ,slidesToShow}) => {
   var settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow:slidesToShow ||4,
+    slidesToScroll:slidesToShow ||4,
     swipeToSlide: true,
     autoplay: true,
     arrows: false,

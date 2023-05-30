@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Navbar } from "./Navbar";
+import UseIntersectionAnimations from "./UseIntersectionAnimations";
 const AppDevelopmentBanner = ({
   img,
   title,
@@ -9,6 +10,8 @@ const AppDevelopmentBanner = ({
   bannerImg,
   ctnTitle,
 }) => {
+  UseIntersectionAnimations()
+
   return (
     <div>
       <Navbar />

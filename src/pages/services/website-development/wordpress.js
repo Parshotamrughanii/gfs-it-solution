@@ -50,28 +50,55 @@ const boxData = [
 const TechnologiesTypes = [
   {
     icon: "asp",
-    title: "ASP .NET",
+    title: "ASP.NET",
+    onClick: ()=>{window.location.href=('/services/website-development/asp-net')},
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Unleash the power of the web with our ASP.NET services built to electrify your online presence!",
   },
   {
     icon: "typescript",
-    title: "TypeScript                      ",
+    title: "TypeScript Development",
+    onClick: ()=>{window.location.href=('/services/website-development/typscript')},
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Transform your website into a stunning masterpiece with our TypeScript development services that will make your code sing!",
   },
   {
     icon: "python",
-    title: "Python",
+    title: "Python Development",
+    onClick: ()=>{window.location.href=('/services/website-development/python')},
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Embrace the future of technology with our Python development services that will make your website the talk of the town!",
   },
   {
     icon: "angular",
-    title: "Angular",
+    title: "Angular Development ",
+    onClick: ()=>{window.location.href=('/services/website-development/angular')},
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Revolutionize your website with our Angular development services that will make your online presence a force to be reckoned with!",
   },
+  {
+    icon: "Group 1342",
+    title: "PHP Development ",
+    onClick: ()=>{window.location.href=('/services/website-development/php')},
+    description:
+      "Get ready to take the digital world by storm with our PHP development services crafted to perfection!",
+  },
+  {
+    icon: "Vector (5)",
+    title: "Laravel Development  ",
+    onClick: ()=>{window.location.href=('/services/website-development/laravel')},
+    description:
+      "Elevate your website to new heights with our Laravel development services that will make it soar like an eagle!",
+  },
+  {
+    icon: "wordpress 1",
+    title: "WordPress Development",
+    onClick: ()=>{window.location.href=('/services/website-development/wordpress')},
+    description:
+      "Unlock your website's true potential with our WordPress development services that will make your online presence shine like a diamond!",
+  },
+
+
 ];
 const WordpressDevelopment = () => {
   return (
@@ -127,10 +154,10 @@ const WordpressDevelopment = () => {
         }
         img="wordpress-bottom"
       />
-      <AppDevelopmentTypes
-        headingTitle="Lorem ipsum dolor sit amet consectetur"
-        description="Our team is adept at leveraging the most updated tools and technologies."
-        TechnologiesTypes={TechnologiesTypes}
+       <AppDevelopmentTypes
+        headingTitle="Our Web Development Services As A Whole"
+        description="Our development maestros define the future of your digital success."
+        TechnologiesTypes={TechnologiesTypes} 
       />
       <Location />
       <Footer />

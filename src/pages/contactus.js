@@ -7,9 +7,6 @@ import { Navbar } from '../../components/Navbar'
 import Footer from "../../components/Footer";
 import UseIntersectionAnimations from "../../components/UseIntersectionAnimations";
 import ContactBanner from "../../components/ContactBanner";
-
-
-
 const Contactus = () => {
     const [showMessage, setshowMessage] = useState("");
     const [error, seterror] = useState("");
