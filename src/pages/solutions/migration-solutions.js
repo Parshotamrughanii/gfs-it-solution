@@ -73,6 +73,7 @@ const MigrationSolutions = () => {
   return (
     <div>
       <Head>
+      <title>GFS IT Solutions</title>
         <link
           rel="stylesheet"
           type="text/css"

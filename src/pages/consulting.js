@@ -6,11 +6,15 @@ import Image from 'next/image'
 import LearnMoreButton from '../../components/LearnMoreButton'
 import ServiceSectionSlider from '../../components/ServiceSectionSlider'
 import UseIntersectionAnimations from '../../components/UseIntersectionAnimations'
+import Head from 'next/head'
 
 const consulting = () => {
   UseIntersectionAnimations()
   return (
     <>
+    <Head>
+      <title>GFS IT Solutions</title>
+      </Head>
     <Navbar/>
     <div className="consulting-serviceBanner">
       <div className="container">

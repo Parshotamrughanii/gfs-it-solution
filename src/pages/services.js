@@ -6,12 +6,16 @@ import Image from "next/image";
 import LearnMoreButton from "components/LearnMoreButton";
 import ServiceSectionSlider from "../../components/ServiceSectionSlider";
 import UseIntersectionAnimations from "../../components/UseIntersectionAnimations";
+import Head from "next/head";
 
 const services = () => {
   UseIntersectionAnimations()
 
   return (
     <div>
+      <Head>
+      <title>GFS IT Solutions</title>
+      </Head>
       <Navbar />
       <div className="ServiceBanner">
         <div className="container">
@@ -21,11 +25,11 @@ const services = () => {
                 <h1 className="animate-up">Services</h1>
                 <p className="animate-right">
                   The digital landscape is vast, but with
-                  <b>GFS IT Solutions</b> by your side, you'll navigate it with
+                  <b> GFS IT Solutions</b> by your side, you'll navigate it with
                   confidence and style. We believe your online presence should
                   be a harmonious blend of
-                  <em>beauty, function, and innovation</em>. Hence our
-                  <b>designers, developers</b>, and
+                  <em> beauty, function, and innovation </em>. Hence our
+                  <b> designers, developers</b>, and
                   <b> marketers</b> are dedicated to crafting extraordinary
                   digital experiences that captivate and engage, all while
                   delivering on your business objectives.

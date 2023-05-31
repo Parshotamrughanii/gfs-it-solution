@@ -69,7 +69,7 @@ export const Navbar = () => {
                   aria-current="page"
                 >
                   Services
-                </Link>
+                </Link> 
               </li>
 
               <li className="nav-item">
@@ -106,14 +106,16 @@ export const Navbar = () => {
               </li>
             </ul>
             <span className="navbar-text">
+            <Link href="/contactus">
               <button
                 id="nav-contact-btn"
                 type="button"
-                onClick={() => (window.location.href = "/contactus")}
+                // onClick={() => (window.location.href = "/contactus")}
                 className="btn btn-danger"
               >
                 Contact Us
               </button>
+              </Link>
             </span>
           </div>
         </div>

@@ -79,18 +79,7 @@ const DigitalMarketing = () => {
           "/services/digital-marketing/content-marketing";
       },
     },
-    {
-      icon: "data-analytics 1",
-      title: "Marketing Analytics",
-      line1: "Real-time analytics",
-      line2: "Higher engagement rate",
-      line3: "Powerful Insights",
-      line4: "Brand Measurement",
-         onClicks: () => {
-        window.location.href =
-          "/services/digital-marketing/marketing-analytics";
-      },
-    },
+  
     {
       icon: "target 1",
       title: "Affiliate Marketing",

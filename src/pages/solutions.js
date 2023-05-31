@@ -6,6 +6,7 @@ import LearnMoreButton from '../../components/LearnMoreButton'
 import ServiceSectionSlider from '../../components/ServiceSectionSlider'
 import Footer from '../../components/Footer'
 import UseIntersectionAnimations from '../../components/UseIntersectionAnimations'
+import Head from 'next/head'
 
 
 const solutions = () => {
@@ -13,6 +14,9 @@ const solutions = () => {
 
   return (
     <>
+    <Head>
+      <title>GFS IT Solutions</title>
+      </Head>
     <Navbar/>
        <div className="Solution-ServiceBanner">
       <div className="container">
