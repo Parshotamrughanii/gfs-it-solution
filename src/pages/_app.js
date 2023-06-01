@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
 
         {/* <meta name="ROBOTS" content="INDEX, FOLLOW" /> */}
-        <meta name="robots" content="noindex,nofollow" />
+          <meta name="robots" content="noindex,nofollow" />
         <script
           type="text/javascript"
           dangerouslySetInnerHTML={{

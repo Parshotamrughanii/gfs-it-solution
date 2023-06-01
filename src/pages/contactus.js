@@ -7,7 +7,6 @@ import { Navbar } from '../../components/Navbar'
 import Footer from "../../components/Footer";
 import UseIntersectionAnimations from "../../components/UseIntersectionAnimations";
 import ContactBanner from "../../components/ContactBanner";
-import Head from "next/head";
 const Contactus = () => {
     const [showMessage, setshowMessage] = useState("");
     const [error, seterror] = useState("");
@@ -75,11 +74,10 @@ const Contactus = () => {
         )
       );
     };
+
+    
   return (
     <>
-    <Head>
-      <title>GFS IT Solutions</title>
-      </Head>
     <Navbar/>
     <ContactBanner/>
     <div className="form-section">

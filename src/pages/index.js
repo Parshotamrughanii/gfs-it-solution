@@ -11,7 +11,6 @@ import Footer from "components/Footer";
 import Recognization from "../../components/Recognization";
 import Locations from "../../components/Locations";
 import UseIntersectionAnimations from "../../components/UseIntersectionAnimations";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -49,7 +48,8 @@ export default function Home() {
         />
     
       </Head>
-      <Navbar></Navbar>
+      <Navbar/>
+      
       <section id="main_banner">
         <div ref={welcomeDiv} id="animated-box"></div>
         <h1 id="weText" ref={weText} className="splash-text">
