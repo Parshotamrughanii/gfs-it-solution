@@ -73,7 +73,8 @@ const DevelopmentServices = () => {
   return (
     <div>
       <Head>
-      <title>GFS IT Solutions</title>
+      <title>SaaS Custom Product & App Development Services Agency</title>
+      <meta name="description" content="Experience breakthrough success with our custom SAAS software & application development services. Our agency's strategy transforms your vision into reality." />
         <link
           rel="stylesheet"
           type="text/css"

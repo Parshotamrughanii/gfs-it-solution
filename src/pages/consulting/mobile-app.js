@@ -11,11 +11,16 @@ import bgs from "../../assets/images/consulting/mob-img.png";
 import Technologies from '../../../components/Technologies'
 import ServiceSectionSlider from '../../../components/ServiceSectionSlider'
 import Footer from '../../../components/Footer'
+import Head from 'next/head'
 
 const MobileAppDevelopment = () => {
     useIntersectionAnimations()
   return (
     <>
+    <Head>
+    <title>Hire Mobile App Development & Integration Consultant Services</title>
+      <meta name="description" content="Unleash your enterprise app development with expert mobile app integration consultancy & development services. Turn your design ideas into reality." />
+    </Head>
     <Navbar/>
          <div className="Banner">
       <div className="container">

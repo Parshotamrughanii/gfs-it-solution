@@ -1086,6 +1086,7 @@ color: #36454F;
   font-size: 16px;
   line-height: 151%;
   color: #fafafa;
+  display: flex;
 }
 
 .footer .horizontal-icons {
@@ -6983,10 +6984,13 @@ color: #000000;
 .main-development-service-box {
   border-top: 2px solid #000000;
   padding: 2rem;
+min-height: 500px;
+
 }
 .main-development-service-box:hover {
   background: #3d4962;
   color: white;
+  
 }
 /* Device responsiveness */
 @media (max-width: 1024px) {
@@ -7105,7 +7109,17 @@ color: #000000;
   cursor: pointer;
   min-height: 150px;
 }
-
+.app-development-types .main-types-box:hover,
+.app-development-types .main-types-box.active {
+  color: white;
+  background-color: #3d4962;
+}
+.app-development-types .main-types-box:hover h5,
+.app-development-types .main-types-box.active h5,
+.app-development-types .main-types-box:hover p,
+  .app-development-types .main-types-box.active p {
+  color: white;
+}
 .types-icon {
   background: #9b9b9b;
   border-radius: 5px;

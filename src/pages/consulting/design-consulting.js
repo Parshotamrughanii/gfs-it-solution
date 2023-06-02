@@ -10,11 +10,16 @@ import TurnKey from "../../../components/TurnKey";
 import { Navbar } from "../../../components/Navbar";
 import Image from "next/image";
 import UseIntersectionAnimations from "../../../components/UseIntersectionAnimations";
+import Head from "next/head";
 
 const DesignConsulting = () => {
     UseIntersectionAnimations()
   return (
     <div>
+      <Head>
+        <title>UI UX Product Design & Brand Design Consultancy Services</title>
+        <meta name="description" content="Craft captivating user experiences & stunning brand designs with our top-notch UI/UX product design consultant services." />
+      </Head>
      <Navbar/>
      <div className="design-app-Banner">
      <div className="container">

@@ -73,7 +73,8 @@ const MigrationSolutions = () => {
   return (
     <div>
       <Head>
-      <title>GFS IT Solutions</title>
+      <title>Enterprise Software Data Integration & Migration Services</title>
+      <meta name="description" content="Seamlessly unite and migrate your data with our expert services. Unlock the power of efficient application integration and migration solutions." />
         <link
           rel="stylesheet"
           type="text/css"

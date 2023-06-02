@@ -73,7 +73,8 @@ const HealthCare = () => {
   return (
     <div>
       <Head>
-      <title>GFS IT Solutions</title>
+      <title>Custom Healthcare App & Software Development Company</title>
+      <meta name="description" content="Transform healthcare with our bespoke software and app development solutions, Partner with a leading company to revolutionize patient care." />
         <link
           rel="stylesheet"
           type="text/css"

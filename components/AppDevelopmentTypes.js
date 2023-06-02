@@ -2,6 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 import Head from "next/head";
+import { useRouter } from 'next/router';
+
 
 const AppDevelopmentTypes = ({
   headingTitle,
@@ -36,6 +38,9 @@ const AppDevelopmentTypes = ({
       },
     ],
   };
+  const router = useRouter();
+  const currentPath = router.asPath;
+  console.log('currentPath', currentPath)
   return (
     <div>
       <Head>
@@ -60,7 +65,7 @@ const AppDevelopmentTypes = ({
               {TechnologiesTypes.map((item) => (
                 <>
                   <div className="">
-                    <div className="main-types-box" onClick={item.onClick}>
+                    <div className={currentPath===item.path?"main-types-box active":"main-types-box"} onClick={item.onClick}>
                       <div className="types-icon">
                         <Image
                           src={require(`../src/assets//images/resuable-components/${item.icon}.png`)}

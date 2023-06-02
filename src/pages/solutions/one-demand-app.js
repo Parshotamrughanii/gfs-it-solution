@@ -73,7 +73,8 @@ const OneDemandApp = () => {
   return (
     <div>
       <Head>
-      <title>GFS IT Solutions</title>
+      <title>Custom On-Demand App Development Solutions</title>
+      <meta name="description" content="Unlock limitless possibilities with our custom on demand app development solutions. Seamlessly cater to evolving customer needs." />
         <link
           rel="stylesheet"
           type="text/css"

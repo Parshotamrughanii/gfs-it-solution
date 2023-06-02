@@ -42,6 +42,8 @@ function WebApp() {
   return (
 <>
 <Head>
+  <title>Web App Development Consultants</title>
+  <meta name="description" content="Get your hands on the customized web application dev excellence. GFS web app consultant team delivers tailored solutions to elevate your online presence." />
         <link
       rel="stylesheet"
       type="text/css"

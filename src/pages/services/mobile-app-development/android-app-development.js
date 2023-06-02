@@ -47,54 +47,73 @@ const TechnologiesTypes = [
   {
     icon: "Speech_Bubble",
     title: "iOS App Development",
+    path:"/services/mobile-app-development/ios-app-development",
+    onClick:()=>window.location.href=("/services/mobile-app-development/ios-app-development"),
     description:
       "From idea to reality - let us craft your dream iOS app with style and precision!",
   },
   {
     icon: "andriod",
     title: "Android App Development",
+    path:"/services/mobile-app-development/android-app-development",
+    onClick:()=>window.location.href=("/services/mobile-app-development/android-app-development"),
     description:
       "Our Android apps are as smooth as butter - we've got the recipe for app perfection!",
   },
   {
     icon: "hybrid",
     title: "Hybrid App Development",
+    path:"/services/mobile-app-development/hybrid-app-development",
+    onClick:()=>window.location.href=("/services/mobile-app-development/hybrid-app-development"),
     description:
       "Get the best of both worlds - our hybrid apps are like chameleons that adapt to any device!",
   },
   {
     icon: "kotlin",
     title: "Kotlin Development",
+    path:"/services/mobile-app-development/kotlin-app-development",
+    onClick:()=>window.location.href=("/services/mobile-app-development/kotlin-app-development"),
     description:
       "Revolutionize your Android app with our Kotlin development expertise.",
   },
   {
     icon: "kotlin",
     title: "Ionic Development",
+    path:"/services/mobile-app-development/ionic-app-development",
+    onClick:()=>window.location.href=("/services/mobile-app-development/ionic-app-development"),
     description:
       "We'll electrify your app with our Ionic development services.",
   },
   {
     icon: "kotlin",
     title: "Swift Development",
+    path:"/services/mobile-app-development/swift-app-development",
+    onClick:()=>window.location.href=("/services/mobile-app-development/swift-app-development"),
     description:
       "Experience lightning-fast app development with our Swift experts.",
   },
   {
     icon: "kotlin",
     title: "Flutter Development",
+    path:"/services/mobile-app-development/flutter-app-development",
+    onClick:()=>window.location.href=("/services/mobile-app-development/flutter-app-development"),
     description:
       "Flutter to success with our top-notch development services.",
   },
   {
     icon: "kotlin",
     title: "Xamarin Development",
+    path:"/services/mobile-app-development/xamarin-app-development",
+    onClick:()=>window.location.href=("/services/mobile-app-development/xamarin-app-development"),
+
     description:
       "Cross-platform apps made easy with our Xamarin development services.",
   },
   {
     icon: "kotlin",
     title: "React Native Development",
+    path:"/services/mobile-app-development/react-native-app-development",
+    onClick:()=>window.location.href=("/services/mobile-app-development/react-native-app-development"),
     description:
       "Effortlessly create dynamic mobile apps with our React Native development team.",
   },

@@ -73,7 +73,8 @@ const RealEstate = () => {
   return (
     <div>
       <Head>
-      <title>GFS IT Solutions</title>
+      <title>Hire Real Estate Mobile App Development Services Company</title>
+      <meta name="description" content="Revolutionize your real estate business with our expert mobile app developer solutions. Partner with real estate app developers to create innovative solutions." />
         <link
           rel="stylesheet"
           type="text/css"

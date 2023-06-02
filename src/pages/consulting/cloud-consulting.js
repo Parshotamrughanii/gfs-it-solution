@@ -11,10 +11,15 @@ import HireUs from '../../../components/HireUs';
 import OperationalPage from '../../../components/OperationalPage';
 import Image from 'next/image';
 import UseIntersectionAnimations from '../../../components/UseIntersectionAnimations';
+import Head from 'next/head';
 const CloudConsulting = () => {
     UseIntersectionAnimations()
   return (
     <div>
+      <Head>
+        <title>Hybrid Cloud Computing Strategy & Security Consulting Services</title>
+        <meta name="description" content="Conquer the hybrid cloud frontier with confidence. Our expert consultants offer strategy and security services to unleash the power of hybrid cloud computing." />
+      </Head>
         <Navbar/>
         <div className="cloud-app-Banner">
       <div className="container">

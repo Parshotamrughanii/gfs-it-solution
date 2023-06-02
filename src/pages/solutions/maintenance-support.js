@@ -73,7 +73,8 @@ export const MaintenanceSupport = () => {
   return (
     <div>
       <Head>
-      <title>GFS IT Solutions</title>
+      <title>24/7 Software Maintenance & Support Services</title>
+      <meta name="description" content="Unleash the superpowers of your application with our 24/7 maintenance and support services. Partner with us and experience the peace of mind you deserve." />
         <link
           rel="stylesheet"
           type="text/css"

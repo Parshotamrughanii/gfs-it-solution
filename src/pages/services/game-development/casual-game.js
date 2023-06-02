@@ -40,7 +40,8 @@ const TechnologiesTypes = [
     icon: "Unity 3D",
     title: "Unity 3D",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Where innovation meets creativity, Unity 3D games unlock boundless possibilities.",
+      path:"/services/game-development/unity3d"
   },
   {
     onClick: () =>
@@ -48,15 +49,17 @@ const TechnologiesTypes = [
     icon: "Casual Games",
     title: "Casual Games",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Indulge in captivating casual games and embark on a journey of endless entertainment.",
+      path:"/services/game-development/casual-game"
   },
   {
     onClick: () =>
       (window.location.href = `/services/game-development/unreal-engine`),
     icon: "Unreal Engine",
-    title: "Unreal Engine",
+    title: "Unreal Engine Games",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Engage in mind-blowing visuals and seamless gameplay with Unreal Engine games.",
+      path:"/services/game-development/unreal-engine"
   },
   {
     onClick: () =>
@@ -64,24 +67,27 @@ const TechnologiesTypes = [
     icon: "Augmented Reality",
     title: "Augmented Reality",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Experience the extraordinary with augmented reality games and redefine your perception.",
+      path:"/services/game-development/augmented-reality"
   },
   {
     onClick: () =>
       (window.location.href = `/services/game-development/metaverse`),
     icon: "Metaverse",
-    title: "Metaverse",
+    title: "Metaverse Games",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-  },
+      "Step into a universe of limitless possibilities and explore the metaverse through captivating games.",
+      path:"/services/game-development/metaverse"
+    },
   {
     onClick: () =>
       (window.location.href = `/services/game-development/virtual-reality`),
     icon: "Virtual Reality",
-    title: "Virtual Reality",
+    title: "Virtual Reality ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-  },
+      "Embark on immersive adventures and unleash your imagination in the realm of virtual reality.",
+      path:"/services/game-development/virtual-reality"
+    },
 ];
 const CasualGames = () => {
   return (
@@ -142,8 +148,8 @@ const CasualGames = () => {
         img="casual3"
       />
       <AppDevelopmentTypes
-        headingTitle="Lorem ipsum dolor sit amet consectetur"
-        description="Our team is adept at leveraging the most updated tools and technologies."
+        headingTitle="Myriad Of Game Development Services"
+        description="Helping game enthusiasts satisfy their playing cravings with different game development services. "
         TechnologiesTypes={TechnologiesTypes}
       />
       <Locations />

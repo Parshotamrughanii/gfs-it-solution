@@ -9,10 +9,15 @@ import Footer from '../../../components/Footer';
 import ServiceSectionSlider from '../../../components/ServiceSectionSlider';
 import Technologies from '../../../components/Technologies';
 import UseIntersectionAnimations from '../../../components/UseIntersectionAnimations';
+import Head from 'next/head';
     const DevopConsultingServices = () => {
         UseIntersectionAnimations()
         return (
           <div>
+            <Head>
+              <title>Professional DevOps Consultancy Services Company</title>
+              <meta name="description" content="Experience the epitome of customized web application dev excellence. Our expert consulting team delivers tailored solutions to elevate your online presence." />
+            </Head>
             <Navbar/>
             <div className="devop-app-Banner">
      <div className="container">

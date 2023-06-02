@@ -15,7 +15,8 @@ const solutions = () => {
   return (
     <>
     <Head>
-      <title>GFS IT Solutions</title>
+      <title>Accelerating Success with Custom Solutions and Industry-Leading Services</title>
+      <meta name="description" content="GFS IT Solutions empowers businesses with a wide range of innovative and tailored solutions, driving success and growth." />
       </Head>
     <Navbar/>
        <div className="Solution-ServiceBanner">

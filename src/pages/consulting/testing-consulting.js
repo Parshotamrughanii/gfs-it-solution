@@ -10,11 +10,16 @@ import HireUs from '../../../components/HireUs';
 import { Navbar } from '../../../components/Navbar';
 import Image from 'next/image';
 import UseIntersectionAnimations from '../../../components/UseIntersectionAnimations';
+import Head from 'next/head';
 
 const TestingConsulting = () => {
     UseIntersectionAnimations()
   return (
     <div>
+      <Head>
+        <title>Software Quality Assurance Consultant & Testing Services</title>
+        <meta name="description" content="Unlock the secrets to software perfection with our extraordinary Quality Assurance (QA) consultants and testing services." />
+      </Head>
     <Navbar/>
     <div className="testing-app-Banner">
      <div className="container">

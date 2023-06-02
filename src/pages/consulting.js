@@ -13,7 +13,8 @@ const consulting = () => {
   return (
     <>
     <Head>
-      <title>GFS IT Solutions</title>
+    <title>Empowering Digital Transformation through Expert Consulting Services</title>
+      <meta name="description" content="Maximizing Business Potential with Expert Consulting in Digital Transformation, Process Optimization, and Strategic Growth Planning." />
       </Head>
     <Navbar/>
     <div className="consulting-serviceBanner">

@@ -33,7 +33,8 @@ export default function Home() {
   return (
     <>
       <Head>
- 
+      <title>GFS IT Solutions | App Development | NFT Creator | Digital Marketing Company</title>
+      <meta name="description" content="At GFS IT Solutions, we provide world-class software development services that are customized to the specific requirements of startups, SMBs, & enterprise-size businesses." />
       
         <link
           rel="stylesheet"
