@@ -100,7 +100,7 @@ const solutions = () => {
               </p>
             
               <LearnMoreButton
-            onClick={() => (window.location.href = "/solutions/one-demand-app")}
+            onClick={() => (window.location.href = "/solutions/on-demand-app")}
             title='Learn more'
             />
             </div>

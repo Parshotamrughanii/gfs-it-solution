@@ -16,7 +16,7 @@ import Head from 'next/head';
           <div>
             <Head>
               <title>Professional DevOps Consultancy Services Company</title>
-              <meta name="description" content="Experience the epitome of customized web application dev excellence. Our expert consulting team delivers tailored solutions to elevate your online presence." />
+              <meta name="description" content="Experience the epitome of custom DevOps services by GFS IT Solutions. Our DevOps consulting firm helps you hit the ground running with confidence & style." />
             </Head>
             <Navbar/>
             <div className="devop-app-Banner">
