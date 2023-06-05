@@ -10,154 +10,137 @@ import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
 const boxData = [
   {
-    title:"title",
-    description:"content"
+    title: "Security Reinvented",
+    description:
+      "Trust is the foundation of any business, and our private blockchain development company ensures that your data remains secure and tamper-proof. With cutting-edge encryption algorithms and decentralized architecture, GFS IT Solutions creates a fortress of security around your business operations.",
   },
   {
-    title:"title",
-    description:"content"
+    title: "Transparency Redefined",
+    description:
+      "Transparency breeds trust, and our custom private blockchain development solutions foster a new level of transparency in your business processes. By recording every transaction on an immutable ledger, we enable stakeholders to verify and validate information, eliminating any doubts or disputes.",
   },
   {
-    title:"title",
-    description:"content"
+    title: "Streamlined Efficiency",
+    description:
+      "Our private blockchain development services optimize your workflows by automating manual processes, reducing intermediaries, and enhancing overall operational efficiency. Experience the power of streamlined operations with our blockchain solutions.",
   },
   {
-    title:"title",
-    description:"content"
+    title: "Cost-Effective Solutions",
+    description:
+      "Our private blockchain development company provides you with innovative solutions that not only drive efficiency but also help reduce costs. By eliminating middlemen and minimizing paperwork, we optimize your resources and maximize your ROI.",
   },
-]
+];
 const TechnologiesTypes = [
-    {
-      icon: "Wallet",
-      title: "Wallet",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-      onClick: ()=>window.location.href=(`/services/blockchain-development/wallet`)
-    },
-    {
-      icon: "Private Blockchain",
-      title: "Private Blockchain",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-        onClick: ()=>window.location.href=(`/services/blockchain-development/private-blockchain`)
-    },
-    {
-      icon: "Exchange",
-      title: "Exchange",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-        onClick: ()=>window.location.href=(`/services/blockchain-development/exchange`)
-    },
-    {
-      icon: "NFT Marketplace",
-      title: "NFT Marketplace",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-        onClick: ()=>window.location.href=(`/services/blockchain-development/nft-marketplace`)
-    },
-    {
-      icon: "Ethereum",
-      title: "Ethereum",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-        onClick: ()=>window.location.href=(`/services/blockchain-development/ethereum`)
-    },
-    {
-      icon: "Hyperledger",
-      title: "Hyperledger",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-        onClick: ()=>window.location.href=(`/services/blockchain-development/hyperledger`)
-    },
-    {
-      icon: "Smart Contract",
-      title: "Smart Contract",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-        onClick: ()=>window.location.href=(`/services/blockchain-development/smart-contract`)
-    },
-  ];
+  {
+    icon: "Wallet",
+    title: "Wallet",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/wallet`),
+  },
+  {
+    icon: "Private Blockchain",
+    title: "Private Blockchain",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/private-blockchain`),
+  },
+  {
+    icon: "Exchange",
+    title: "Exchange",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/exchange`),
+  },
+  {
+    icon: "NFT Marketplace",
+    title: "NFT Marketplace",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/nft-marketplace`),
+  },
+  {
+    icon: "Ethereum",
+    title: "Ethereum",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/ethereum`),
+  },
+  {
+    icon: "Hyperledger",
+    title: "Hyperledger",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/hyperledger`),
+  },
+  {
+    icon: "Smart Contract",
+    title: "Smart Contract",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/smart-contract`),
+  },
+];
 const PrivateBlockchain = () => {
   return (
     <div>
-        <Navbar/>
+      <Navbar />
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="privateblockchain1"
         title="Private Blockchain Development Services"
         handleGetInTouch={() => (window.location.href = "/contactus")}
         description={
-          <span>
-            Are you looking to take your web applications to the next level?
-            With Angular, you can create dynamic, responsive applications that
-            are sure to <b>WOW</b> your users. And with our expert Angular
-            development services, you can take full advantage of this powerful
-            framework to build applications that are both functional and
-            user-friendly.
-            <br />
-            <br />
-            So whether you are a small business owner or a Fortune 500 company,
-            <b> GFS IT Solutions</b> has the expertise and experience you need
-            to take your web applications to the summit of success.
-          </span>
+          <span>Revolutionizing the future with futuristic solutions!</span>
         }
       />
       <AppDevelopmentWhy
         img="privateblockchain2"
-        subTitle="Angular Development Services"
-        title="What Our Angular Web Development Company Can Do For You?"
+        subTitle="Private Blockchain Development"
+        title="Private Blockchain Development: Minimizing Disruption And Maximizing Efficiency"
         description={
           <span>
-            Our team of Angular JS development services are experts in their
-            craft; they are the architects of the digital world, building
-            websites that are not just visually stunning but also functionally
-            rich.
+            Our private blockchain development services prioritize the utmost
+            security of your data and transactions. Through advanced
+            cryptographic techniques, decentralized consensus algorithms, and
+            permissioned access, we create a fortress-like environment that
+            safeguards your sensitive information.
             <br />
             <br />
-            Our Angular web development company offers everything from{" "}
-            <em>
-              building custom web applications to providing maintenance and
-              support for your existing websites.
-            </em>{" "}
-            We provide end-to-end solutions that include
-            <em>
-              {" "}
-              UI/UX design, front-end and back-end development, API integration,
-              and testing
-            </em>
-            .
-            <br />
-            <br />
-            Whether you need powerful data binding, seamless integration with
-            other technologies or just a little bit of Angular web application
-            development magic, <b>GFS IT Solutions</b> has got you covered.
+            Get in touch with us and let our future-forward experts define the
+            success of your business!
           </span>
         }
       />
-        <AppDevelopmentService
-        headingTitle="Why Choose GFS IT Solutions When You Have So Many?"
-    data={boxData}
-    />
+      <AppDevelopmentService
+        headingTitle="Unlock the Benefits of Custom Private Blockchain Solutions"
+        data={boxData}
+      />
 
       <AppProductDevelopment
-        subTitle="Angular Development Services"
-        title="Time to Leave Your Customers in the Dust with Our Angular Development Services"
+        subTitle="Private Blockchain Development Services"
+        title="Unleash the Potential of Blockchain: Hire Our Experts Today!"
         description={
           <span>
-            Are you tired of using outdated web applications that are slow and
-            unresponsive? Look no further! Our Angular services are here to
-            revolutionize your web experience. Our services include Angular 2+,
-            AngularJS, and AngularJS migration. But the story doesn’t end here!
+            Welcome to <b>GFS IT Solutions</b>, where we weave the magic of
+            private blockchain development! We pride ourselves on being the
+            maestros of this cutting-edge technology, crafting solutions that
+            propel businesses into the future.
             <br />
-            In today's world, mobile devices have become an essential part of
-            our daily lives. Hence we offer angular mobile app development
-            services, too, to ensure a seamless user experience on mobile
-            devices.<br/><br/>
-            <b>So, what are you waiting for? </b> <br/>
-            <br/>
-            Get in touch with us. Our expert consultant will work closely with
-            you to identify the best solutions that align with your business
-            goals!
+            <br />
+            So, whether you're a small startup or an established enterprise,
+            join us on this blockchain odyssey. Let our private blockchain
+            development services be your guiding light, your beacon of
+            innovation in a sea of sameness. Together, we'll unlock the true
+            potential of private blockchains and redefine how you do business.
+            Hire private blockchain developer because the adventure awaits!
           </span>
         }
         img="privateblockchain3"

@@ -10,154 +10,133 @@ import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
 const boxData = [
   {
-    title:"title",
-    description:"content"
+    title: "Seamless NFT Marketplace Design and Development",
+    description:
+      "Our NFT marketplace design and development prowess is second to none. We craft immersive and visually stunning platforms that bring your NFT art to life. It's like having a gallery where your digital creations dance and captivate the audience, leaving them in awe.",
   },
   {
-    title:"title",
-    description:"content"
+    title: "Custom NFT Marketplace",
+    description:
+      "We understand that every artist, collector, or entrepreneur has unique aspirations. That's why we offer customizable NFT art marketplace development, allowing you to leave an indelible mark on motivated NFT buyers. ",
   },
   {
-    title:"title",
-    description:"content"
+    title: "End-to-End Support",
+    description:
+      "We're not just here to develop your NFT marketplace and bid you farewell. From ideation to launch and beyond, we'll be your trusted companions, ensuring your success in this ever-evolving digital realm.",
   },
-  {
-    title:"title",
-    description:"content"
-  },
-]
+];
 const TechnologiesTypes = [
-    {
-      icon: "Wallet",
-      title: "Wallet",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-      onClick: ()=>window.location.href=(`/services/blockchain-development/wallet`)
-    },
-    {
-      icon: "Private Blockchain",
-      title: "Private Blockchain",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-        onClick: ()=>window.location.href=(`/services/blockchain-development/private-blockchain`)
-    },
-    {
-      icon: "Exchange",
-      title: "Exchange",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-        onClick: ()=>window.location.href=(`/services/blockchain-development/exchange`)
-    },
-    {
-      icon: "NFT Marketplace",
-      title: "NFT Marketplace",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-        onClick: ()=>window.location.href=(`/services/blockchain-development/nft-marketplace`)
-    },
-    {
-      icon: "Ethereum",
-      title: "Ethereum",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-        onClick: ()=>window.location.href=(`/services/blockchain-development/ethereum`)
-    },
-    {
-      icon: "Hyperledger",
-      title: "Hyperledger",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-        onClick: ()=>window.location.href=(`/services/blockchain-development/hyperledger`)
-    },
-    {
-      icon: "Smart Contract",
-      title: "Smart Contract",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
-        onClick: ()=>window.location.href=(`/services/blockchain-development/smart-contract`)
-    },
-  ];
+  {
+    icon: "Wallet",
+    title: "Wallet",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/wallet`),
+  },
+  {
+    icon: "Private Blockchain",
+    title: "Private Blockchain",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/private-blockchain`),
+  },
+  {
+    icon: "Exchange",
+    title: "Exchange",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/exchange`),
+  },
+  {
+    icon: "NFT Marketplace",
+    title: "NFT Marketplace",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/nft-marketplace`),
+  },
+  {
+    icon: "Ethereum",
+    title: "Ethereum",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/ethereum`),
+  },
+  {
+    icon: "Hyperledger",
+    title: "Hyperledger",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/hyperledger`),
+  },
+  {
+    icon: "Smart Contract",
+    title: "Smart Contract",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    onClick: () =>
+      (window.location.href = `/services/blockchain-development/smart-contract`),
+  },
+];
 const NFTMarketplace = () => {
   return (
     <div>
-        <Navbar/>
+      <Navbar />
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="nft1"
-        title="NFT MarketPlace"
+        title="NFT Marketplace Development Services"
         handleGetInTouch={() => (window.location.href = "/contactus")}
         description={
           <span>
-            Are you looking to take your web applications to the next level?
-            With Angular, you can create dynamic, responsive applications that
-            are sure to <b>WOW</b> your users. And with our expert Angular
-            development services, you can take full advantage of this powerful
-            framework to build applications that are both functional and
-            user-friendly.
-            <br />
-            <br />
-            So whether you are a small business owner or a Fortune 500 company,
-            <b> GFS IT Solutions</b> has the expertise and experience you need
-            to take your web applications to the summit of success.
+            Our NFT development company is not just another company in the
+            crowd; we are the artisans of this digital revolution, shaping the
+            future of NFTs!
           </span>
         }
       />
       <AppDevelopmentWhy
         img="nft2"
-        subTitle="Angular Development Services"
-        title="What Our Angular Web Development Company Can Do For You?"
+        subTitle="NFT Marketplace Development Services"
+        title="NFT Marketplace Development - Unlocking The True Value Of Your Digital Creations!"
         description={
           <span>
-            Our team of Angular JS development services are experts in their
-            craft; they are the architects of the digital world, building
-            websites that are not just visually stunning but also functionally
-            rich.
+            But what exactly is an NFT marketplace, you may wonder? Imagine it
+            as a bustling bazaar where artists, collectors, and buffs gather to
+            showcase, buy, and sell their unique digital masterpieces. Our white
+            label NFT marketplace solutions are like a blank canvas, allowing
+            you to create a vibrant marketplace tailored to your vision.
             <br />
             <br />
-            Our Angular web development company offers everything from{" "}
-            <em>
-              building custom web applications to providing maintenance and
-              support for your existing websites.
-            </em>{" "}
-            We provide end-to-end solutions that include
-            <em>
-              {" "}
-              UI/UX design, front-end and back-end development, API integration,
-              and testing
-            </em>
-            .
-            <br />
-            <br />
-            Whether you need powerful data binding, seamless integration with
-            other technologies or just a little bit of Angular web application
-            development magic, <b>GFS IT Solutions</b> has got you covered.
+            At GFS IT Solutions, we understand that NFTs are not just digital
+            assets but windows to a universe of untapped potential. If you want
+            to enter that, call us right away!
           </span>
         }
       />
       <AppDevelopmentService
-        headingTitle="Why Choose GFS IT Solutions When You Have So Many?"
-    data={boxData}
-    />
+        headingTitle="What’s Included In Our NFT Marketplace Development Services?"
+        data={boxData}
+        slidesToShow={3}
+      />
 
       <AppProductDevelopment
-        subTitle="Angular Development Services"
-        title="Time to Leave Your Customers in the Dust with Our Angular Development Services"
+        subTitle="NFT Marketplace Development Services"
+        title="NFT Marketplace Development Services Redefining The Very Fabric Of Digital Art!"
         description={
           <span>
-            Are you tired of using outdated web applications that are slow and
-            unresponsive? Look no further! Our Angular services are here to
-            revolutionize your web experience. Our services include Angular 2+,
-            AngularJS, and AngularJS migration. But the story doesn’t end here!
+            If you want to embark on a journey into the mesmerizing realm of
+            NFTs, you've come to the right NFT marketplace development company!
             <br />
-            In today's world, mobile devices have become an essential part of
-            our daily lives. Hence we offer angular mobile app development
-            services, too, to ensure a seamless user experience on mobile
-            devices.<br/><br/>
-            <b>So, what are you waiting for? </b> <br/>
-            <br/>
-            Get in touch with us. Our expert consultant will work closely with
-            you to identify the best solutions that align with your business
-            goals!
+            So, whether you're an artist yearning to showcase your creations, a
+            collector searching for that elusive gem, or an entrepreneur seeking
+            to revolutionize the NFT landscape, join our NFT marketplace
+            development company on this exhilarating journey.
           </span>
         }
         img="nft3"
