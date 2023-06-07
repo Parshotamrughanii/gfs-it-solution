@@ -11,22 +11,22 @@ import { Navbar } from "../../../../components/Navbar";
 
 const boxData = [
   {
-    title:"title",
-    description:"content"
+    title: "User-Centric Design",
+    description: "We put your users at the forefront of our web product design process. By deeply understanding their needs, preferences, and pain points, our UX product designer crafts products that resonate with them on a profound level. ",
   },
   {
-    title:"title",
-    description:"content"
+    title: "Iterative Prototyping",
+    description: "We believe in the power of iteration. Through rapid prototyping and user testing, we refine our product design services until they achieve perfection. It's like sculpting a masterpiece, chiseling away at imperfections and honing every detail until it becomes a thing of beauty.",
   },
   {
-    title:"title",
-    description:"content"
+    title: "Attention to Detail",
+    description: "Our product design expert leaves no stone unturned when it comes to the finer details of your product. From the texture of the materials to the placement of every button, we obsess over the minutiae that elevate your product from good to exceptional. ",
   },
   {
-    title:"title",
-    description:"content"
+    title: "Timeless Aesthetics",
+    description: "Trends may come and go, but timeless design endures. In our digital product design services, we strive to create products that stand the test of time, transcending fleeting fads and becoming timeless icons. ",
   },
-]
+];
 const TechnologiesTypes = [
   {
     icon: "asp",
@@ -56,84 +56,58 @@ const TechnologiesTypes = [
 const ProductDesign = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="productdesign"
-        title="Product Design"
+        title="Digital Product Design Services"
         handleGetInTouch={() => (window.location.href = "/contactus")}
         description={
           <span>
-            Are you looking to take your web applications to the next level?
-            With Angular, you can create dynamic, responsive applications that
-            are sure to <b>WOW</b> your users. And with our expert Angular
-            development services, you can take full advantage of this powerful
-            framework to build applications that are both functional and
-            user-friendly.
-            <br />
-            <br />
-            So whether you are a small business owner or a Fortune 500 company,
-            <b> GFS IT Solutions</b> has the expertise and experience you need
-            to take your web applications to the summit of success.
+            At our company, we specialize in connecting you with the top-notch
+            UX product designer who can bring your vision to life!
           </span>
         }
       />
       <AppDevelopmentWhy
         img="product-design2"
-        subTitle="Angular Development Services"
-        title="What Our Angular Web Development Company Can Do For You?"
+        subTitle="Digital Product Design Services"
+        title="Conceptualizing And Executing Innovative Designs!"
         description={
           <span>
-            Our team of Angular JS development services are experts in their
-            craft; they are the architects of the digital world, building
-            websites that are not just visually stunning but also functionally
-            rich.
+            Our product design services are infused with a relentless pursuit of
+            innovative solutions that set you apart from the crowd. We don't
+            just see ourselves as designers; we see ourselves as your partners
+            on this creative voyage of product design and development services.
             <br />
             <br />
-            Our Angular web development company offers everything from{" "}
-            <em>
-              building custom web applications to providing maintenance and
-              support for your existing websites.
-            </em>{" "}
-            We provide end-to-end solutions that include
-            <em>
-              {" "}
-              UI/UX design, front-end and back-end development, API integration,
-              and testing
-            </em>
-            .
-            <br />
-            <br />
-            Whether you need powerful data binding, seamless integration with
-            other technologies or just a little bit of Angular web application
-            development magic, <b>GFS IT Solutions</b> has got you covered.
+            So, whether you're a startup with a disruptive idea or an
+            established company looking to reinvent your product line, join our
+            product concept design team on this creative expedition.
           </span>
         }
       />
       <AppDevelopmentService
-        headingTitle="Why Choose GFS IT Solutions When You Have So Many?"
-     data={boxData}
-     />
+        headingTitle="Hire Product Designer To Avail A Slew Of Benefits"
+        data={boxData}
+      />
 
       <AppProductDevelopment
-        subTitle="Angular Development Services"
-        title="Time to Leave Your Customers in the Dust with Our Angular Development Services"
+        subTitle="Digital Product Design Services"
+        title="Hire Product Designer To Create Captivating Experiences For Your Users!"
         description={
           <span>
-            Are you tired of using outdated web applications that are slow and
-            unresponsive? Look no further! Our Angular services are here to
-            revolutionize your web experience. Our services include Angular 2+,
-            AngularJS, and AngularJS migration. But the story doesn’t end here!
+            At <b>GFS IT Solutions</b>, we don't just design products; our
+            product design expert creates experiences that leave an indelible
+            mark on the world. Our team of passionate designers, fueled by a
+            desire for perfection, pours their hearts and soul into every
+            project. With a keen eye for detail and a touch of artistic flair,
+            our digital product designer transforms your ideas into tangible
+            works of art.
             <br />
-            In today's world, mobile devices have become an essential part of
-            our daily lives. Hence we offer angular mobile app development
-            services, too, to ensure a seamless user experience on mobile
-            devices.<br/><br/>
-            <b>So, what are you waiting for? </b> <br/>
-            <br/>
-            Get in touch with us. Our expert consultant will work closely with
-            you to identify the best solutions that align with your business
-            goals!
+            <br />
+            So, if you're ready to take your digital products to new heights,
+            hire product designer now!
           </span>
         }
         img="product-design3"

@@ -141,7 +141,7 @@ const UiUxDesigning = () => {
             , we have the expertise to create a user experience that truly
             delights. With our graphic design consultant, you can create a
             design that <b>drives conversions, increases revenue</b>, and
-            <b>grows your business</b> .
+            <b> grows your business</b> .
           </>
         }
         //Mobile App Development section
