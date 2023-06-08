@@ -8,7 +8,7 @@ const AppDevelopmentService = ({ headingTitle, data ,slidesToShow}) => {
     infinite: true,
     speed: 500,
     slidesToShow:slidesToShow ||4,
-    slidesToScroll:slidesToShow ||4,
+    slidesToScroll:1,
     swipeToSlide: true,
     autoplay: true,
     arrows: false,

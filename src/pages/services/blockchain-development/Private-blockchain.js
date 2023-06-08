@@ -33,57 +33,66 @@ const boxData = [
 const TechnologiesTypes = [
   {
     icon: "Wallet",
-    title: "Wallet",
+    title: "Crypto Wallet Development",
+    path:"/services/blockchain-development/wallet",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Safeguard your digital assets with a secure and user-friendly wallet tailored to your needs.",
     onClick: () =>
       (window.location.href = `/services/blockchain-development/wallet`),
   },
   {
     icon: "Private Blockchain",
-    title: "Private Blockchain",
+    title: "Private Blockchain Development",
+    path:"/services/blockchain-development/private-blockchain",
+
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Experience enhanced privacy and control with a customized private blockchain solution.",
     onClick: () =>
       (window.location.href = `/services/blockchain-development/private-blockchain`),
   },
   {
     icon: "Exchange",
-    title: "Exchange",
+    title: "Exchange Development",
+    path:"/services/blockchain-development/exchange",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Empower seamless cryptocurrency trading experiences with our cutting-edge exchange platform.",
     onClick: () =>
       (window.location.href = `/services/blockchain-development/exchange`),
   },
   {
     icon: "NFT Marketplace",
-    title: "NFT Marketplace",
+    title: "NFT Marketplace Development",
+    path:"/services/blockchain-development/nft-marketplace",
+
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Dive into the world of digital collectibles and create a thriving marketplace for unique NFTs.",
     onClick: () =>
       (window.location.href = `/services/blockchain-development/nft-marketplace`),
   },
   {
     icon: "Ethereum",
-    title: "Ethereum",
+    title: "Ethereum Development",
+    path:"/services/blockchain-development/ethereum",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Harness the power of Ethereum to build decentralized applications that redefine possibilities.",
     onClick: () =>
       (window.location.href = `/services/blockchain-development/ethereum`),
   },
   {
     icon: "Hyperledger",
-    title: "Hyperledger",
+    title: "Hyperledger Development",
+    path:"/services/blockchain-development/hyperledger",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Leverage the robustness of Hyperledger technology for building enterprise-grade blockchain solutions.",
     onClick: () =>
       (window.location.href = `/services/blockchain-development/hyperledger`),
   },
   {
     icon: "Smart Contract",
-    title: "Smart Contract",
+    title: "Smart Contract Development",
+    path:"/services/blockchain-development/smart-contract",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+      "Automate transactions and agreements with intelligent, self-executing smart contracts.",
     onClick: () =>
       (window.location.href = `/services/blockchain-development/smart-contract`),
   },
@@ -145,9 +154,9 @@ const PrivateBlockchain = () => {
         }
         img="privateblockchain3"
       />
-      <AppDevelopmentTypes
-        headingTitle="Lorem ipsum dolor sit amet consectetur"
-        description="Our team is adept at leveraging the most updated tools and technologies."
+    <AppDevelopmentTypes
+        headingTitle="Experience Cutting-Edge Blockchain Services Tailored to Your Needs"
+        description="Embrace the future of technology with our comprehensive suite of blockchain services, revolutionizing industries and opening new doors of opportunity."
         TechnologiesTypes={TechnologiesTypes}
       />
       <Locations />
