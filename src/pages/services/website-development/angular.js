@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/resuable-components/website-bg.png";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -87,6 +88,10 @@ const TechnologiesTypes = [
 const AngularAplicationDevelopment = () => {
   return (
     <div>
+      <Head>
+        <title>Angular Web Application Development & Consultant Company</title>
+        <meta name="description" content="Hire a leading AngularJS development company for angular app & web development solutions that drive online success. Get a free Angular consultancy service" />
+      </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="angular-banner"

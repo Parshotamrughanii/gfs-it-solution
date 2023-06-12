@@ -3,6 +3,7 @@ import React from 'react'
 import Img from "../../assets/images/inner-pages/mobile-app/bg.png";
 import ServiceHomePage from '../../../components/ServiceHomePage';
 import Image from 'next/image';
+import Head from 'next/head';
 
 const MobileAppDevelopment = () => {
     const list = [
@@ -157,6 +158,10 @@ const MobileAppDevelopment = () => {
     
   return (
     <div>
+      <Head>
+        <title>Affordable Custom App Development Services | GFS IT Solutions</title>
+        <meta name="description" content="Affordable custom mobile app development for iOS and Android platforms. Stand out from the competition with tailored solutions that unlock your app's full potential." />
+      </Head>
      
         <ServiceHomePage
         // section banner -one

@@ -8,6 +8,7 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import RelatedServices from "../../../../components/RelatedServices";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import Head from "next/head";
 const boxData = [
   {
     title: "Business Email Marketing",
@@ -112,7 +113,10 @@ const relatedServiceData = [
 const EmailMarketing = () => {
   return (
     <div>
-      <Navbar />
+     <Head>
+      <title>Email Marketing & Campaign Management Company in USA</title>
+      <meta name="description" content="GFS IT SOLUTIONS Marketing Agency offers an extensive range of email marketing campaign services tailored to suit your brand's specific requirements." />
+     </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="emailmarketing1"

@@ -8,6 +8,7 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -88,7 +89,10 @@ const TechnologiesTypes = [
 const PythonWebDevelopmentServices = () => {
   return (
     <div>
-        <Navbar/>
+  <Head>
+    <title>Affordable Python Development Services | Hire Python Developers</title>
+    <meta name="description" content="Looking for affordable python software development services? Accelerate your projects with our skilled Python developers." />
+  </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="python-banner"

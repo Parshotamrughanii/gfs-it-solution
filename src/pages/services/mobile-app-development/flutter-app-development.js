@@ -8,6 +8,7 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import Head from "next/head";
 
 const boxData = [
  { title:"Lightning-fast",
@@ -90,7 +91,11 @@ const TechnologiesTypes = [
 const FlutterAppDevelopment = () => {
   return (
     <div>
-        <Navbar/>
+      <Head>
+        <title>Custom Flutter App Development Services | Hire Flutter Developers</title>
+        <meta name="description" content="Experience the future of app development with our custom Flutter services. Flutter's expressive UI, native performance, and rapid development cycles" />
+      </Head>
+   
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="flutter-banner"

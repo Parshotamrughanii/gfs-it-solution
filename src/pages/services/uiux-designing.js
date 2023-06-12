@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from "react";
 import ServiceHomePage from "../../../components/ServiceHomePage";
+import Head from "next/head";
 // import img from "../../../../assets/images/inner-pages/mobile-app/Background.png";
 
 
@@ -120,6 +121,10 @@ const UiUxDesigning = () => {
   ];
   return (
     <div>
+      <Head>
+        <title>UX/UI Design Services | Hire UX/UI Web & Mobile App Designer</title>
+        <meta name="description" content="Enhance user interface design with our responsive web design services. Hire our skilled UI/UX design company to create visually appealing interfaces." />
+      </Head>
       <ServiceHomePage
         // section banner -one
         bgImage="linear-gradient(180deg, #C975CB -13.54%, #7D527B 100%)"

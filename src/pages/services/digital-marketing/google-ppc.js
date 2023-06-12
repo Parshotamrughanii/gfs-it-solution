@@ -8,6 +8,7 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import RelatedServices from "../../../../components/RelatedServices";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import Head from "next/head";
 
 
 const boxData = [
@@ -100,7 +101,10 @@ const relatedServiceData = [
 const GooglePpc = () => {
   return (
     <div>
-        <Navbar/>
+     <Head>
+      <title>Pay Per Click Marketing & Consultant Management Services</title>
+      <meta name="description" content="Use our google adwords, ecommerce PPC management & consultancy services to make effective campaign. Get ppc marketing & Display Ads services now!" />
+     </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="googleppc1"

@@ -8,6 +8,7 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import RelatedServices from "../../../../components/RelatedServices";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import Head from "next/head";
 const boxdata = [
   {
     title: "Affordable Local Search Engine Optimization Services",
@@ -133,7 +134,10 @@ const relatedServiceData = [
 const Seo = () => {
   return (
     <div>
-        <Navbar/>
+     <Head>
+      <title>Hire Search Engine & content Optimization Services nationwide</title>
+      <meta name="description" content="Affordable search engine optimization services agency, we optimize your website for local SEO, google my business, on page, off page, audit, ranking & app store." />
+     </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="seo1"

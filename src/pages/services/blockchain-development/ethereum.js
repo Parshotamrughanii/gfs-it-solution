@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
+import Head from "next/head";
 const boxData = [
   {
     title: "Ethereum Smart Contract Development",
@@ -100,7 +101,10 @@ const TechnologiesTypes = [
 const Ethereum = () => {
   return (
     <div>
-      <Navbar />
+   <Head>
+    <title>Ethereum Blockchain Application Development Services</title>
+    <meta name="description" content="Accelerate your business growth with our Ethereum blockchain application development services. Smart contracts, decentralized apps, and secure solutions for your needs" />
+   </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="ethereum1"

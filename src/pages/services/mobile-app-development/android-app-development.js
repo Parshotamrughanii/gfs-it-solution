@@ -8,6 +8,7 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import Head from "next/head";
 
 const boxData = [
   {title:"Design and Development Services",
@@ -123,7 +124,10 @@ const TechnologiesTypes = [
 const AndroidAppDevelopment = () => {
   return (
     <div>
-        <Navbar/>
+      <Head>
+        <title>Custom Android App Design & Development Services | App Consultancy</title>
+        <meta name="description" content="Enhance your Android app with our comprehensive design & development consultancy. We create stunning and user-friendly experiences for optimal success." />
+      </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="android-app-developtment 1"

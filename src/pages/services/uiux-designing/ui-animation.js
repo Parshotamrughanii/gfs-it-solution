@@ -8,6 +8,8 @@ import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import AppDevelopmentService from "../../../../components/AppDevelopmentService";
 import { Navbar } from "../../../../components/Navbar";
+import RelatedServices from "../../../../components/RelatedServices";
+import Head from "next/head";
 const boxData = [
   {
     title: "Unleash Your Creative Vision",
@@ -30,36 +32,66 @@ const boxData = [
       "Our animation services cater to various industries, from entertainment and advertising to education and e-learning. With our personalized approach, we tailor our animation services to meet your specific needs, ensuring that your message is effectively conveyed and your audience is captivated.",
   },
 ];
-const TechnologiesTypes = [
+const relatedServiceData = [
   {
-    icon: "asp",
-    title: "ASP .NET",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 1,
+    icon: "Brand Strategy",
+    title: "Brand Strategy",
+      line1: "Cross-platform framework",
+      line2: "Pre-built components",  
+      line3: "Powerful command line interface",
+      line4: "Cordova plugins",
+    path: "/services/uiux-designing/brand-strategy",
   },
   {
-    icon: "typescript",
-    title: "TypeScript                      ",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 2,
+    icon: "Design Testing",
+    title: "Design Testing",
+    line1: "Single code-base Framework",
+      line2: "It’s all Widget Feature",
+      line3: "Open-Source",
+      line4: "High Community Support",
+    path: "/services/uiux-designing/design-testing",
   },
   {
-    icon: "python",
-    title: "Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 3,
+    icon: "Product Design",
+    title: "Product Design",
+    line1: "Higher Productivity",
+    line2: "Java Supported",
+    line3: "Consistent and Supportive",
+    line4: "Google Supported",
+    path: "/services/uiux-designing/product-design",
   },
   {
-    icon: "angular",
-    title: "Angular",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 4,
+    icon: "UX Research",
+    title: "UX Research",
+    line1: "Highly secure",
+    line2: "Scalable",
+    line3: "intuitive user interface",
+    line4: "customer Base Analytics",
+    path: "/services/uiux-designing/ux-research",
   },
+  {
+    id: 5,
+    icon: "ui animation",
+    title: "UI & Animation",
+    line1: "Open-source platform",
+    line2: "Customization",
+    line3: "Feature0enrich apps",
+    line4: "Great user experience",
+    path: "/services/uiux-designing/ui-animation",
+  },
+  
 ];
 const UiAnimation = () => {
   return (
     <div>
-      <Navbar />
+    <Head>
+      <title>Creative UI/UX Design & Animation Services</title>
+      <meta name="description" content="Elevate your digital presence with our creative UI/UX design & animation services. Our team brings your vision to life through captivating designs and user experiences." />
+    </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="ui-animation1"
@@ -118,11 +150,7 @@ const UiAnimation = () => {
         }
         img="ui-animation3"
       />
-      <AppDevelopmentTypes
-        headingTitle="Lorem ipsum dolor sit amet consectetur"
-        description="Our team is adept at leveraging the most updated tools and technologies."
-        TechnologiesTypes={TechnologiesTypes}
-      />
+      <RelatedServices data={relatedServiceData} />
       <Locations />
       <Footer />
     </div>

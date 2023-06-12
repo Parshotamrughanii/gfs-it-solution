@@ -8,6 +8,7 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -98,7 +99,10 @@ const TechnologiesTypes = [
 const KotlinDevelopmentService = () => {
   return (
     <div>
-        <Navbar/>
+      <Head>
+        <title>Kotlin App Development | Upgradations | Migration | Kotlin Consultant</title>
+        <meta name="description" content="Drive innovation with our Kotlin app development services. Customized solutions, efficient codebase, and accelerated time-to-market" />
+      </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="kotlin-banner"

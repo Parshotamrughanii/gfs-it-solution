@@ -68,7 +68,7 @@ const AppDevelopmentTypes = ({
                     <div className={currentPath===item.path?"main-types-box active":"main-types-box"} onClick={item.onClick}>
                       <div className="types-icon">
                         <Image
-                          src={require(`../src/assets//images/resuable-components/${item.icon}.png`)}
+                          src={require(`../src/assets/images/resuable-components/${item.icon}.png`)}
                           alt="app-develpment"
                         />
                       </div>

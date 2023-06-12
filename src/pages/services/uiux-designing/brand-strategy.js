@@ -8,6 +8,8 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import RelatedServices from "../../../../components/RelatedServices";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -31,36 +33,66 @@ const boxData = [
       "We assist you in crafting a roadmap for your brand's future, identifying growth opportunities and potential challenges. Our agile approach allows your brand to evolve and adapt to changing market dynamics while staying true to its core values.",
   },
 ];
-const TechnologiesTypes = [
+const relatedServiceData = [
   {
-    icon: "asp",
-    title: "ASP .NET",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 1,
+    icon: "Brand Strategy",
+    title: "Brand Strategy",
+      line1: "Cross-platform framework",
+      line2: "Pre-built components",  
+      line3: "Powerful command line interface",
+      line4: "Cordova plugins",
+    path: "/services/uiux-designing/brand-strategy",
   },
   {
-    icon: "typescript",
-    title: "TypeScript                      ",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 2,
+    icon: "Design Testing",
+    title: "Design Testing",
+    line1: "Single code-base Framework",
+      line2: "It’s all Widget Feature",
+      line3: "Open-Source",
+      line4: "High Community Support",
+    path: "/services/uiux-designing/design-testing",
   },
   {
-    icon: "python",
-    title: "Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 3,
+    icon: "Product Design",
+    title: "Product Design",
+    line1: "Higher Productivity",
+    line2: "Java Supported",
+    line3: "Consistent and Supportive",
+    line4: "Google Supported",
+    path: "/services/uiux-designing/product-design",
   },
   {
-    icon: "angular",
-    title: "Angular",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 4,
+    icon: "UX Research",
+    title: "UX Research",
+    line1: "Highly secure",
+    line2: "Scalable",
+    line3: "intuitive user interface",
+    line4: "customer Base Analytics",
+    path: "/services/uiux-designing/ux-research",
   },
+  {
+    id: 5,
+    icon: "ui animation",
+    title: "UI & Animation",
+    line1: "Open-source platform",
+    line2: "Customization",
+    line3: "Feature0enrich apps",
+    line4: "Great user experience",
+    path: "/services/uiux-designing/ui-animation",
+  },
+  
 ];
 const BrandStrategy = () => {
   return (
     <div>
-      <Navbar />
+     <Head>
+      <title>Brand Strategy & Digital Branding Services Agency</title>
+      <meta name="description" content="Craft a powerful brand presence with our strategic digital branding services. Our agency specializes in brand strategy, creating memorable experiences." />
+     </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="brand-strategy1"
@@ -112,11 +144,7 @@ const BrandStrategy = () => {
         }
         img="brand-strategy3"
       />
-      <AppDevelopmentTypes
-        headingTitle="Lorem ipsum dolor sit amet consectetur"
-        description="Our team is adept at leveraging the most updated tools and technologies."
-        TechnologiesTypes={TechnologiesTypes}
-      />
+       <RelatedServices data={relatedServiceData} />
       <Locations />
       <Footer />
     </div>

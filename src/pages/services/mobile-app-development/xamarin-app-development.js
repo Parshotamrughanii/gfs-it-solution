@@ -8,6 +8,7 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import Head from "next/head";
 
 const boxData = [
  { title:"Unmatched Performance",
@@ -52,7 +53,10 @@ const TechnologiesTypes = [
 const XamarinAppDevelopment = () => {
   return (
     <div>
-        <Navbar/>
+      <Head>
+        <title>Xamarin Mobile Application Development Services | Xamarin Consulting</title>
+        <meta name="description" content="Drive innovation with our Xamarin development services. Robust functionalities, intuitive interfaces, and accelerated time-to-market for your app" />
+      </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="xamarin-banner"

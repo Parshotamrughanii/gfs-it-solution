@@ -8,6 +8,7 @@ import RelatedServices from "../../../../components/RelatedServices";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/digital-marketing-bg.png";
+import Head from "next/head";
 const boxData = [
   {
     title: "Creativity",
@@ -102,7 +103,10 @@ const relatedServiceData = [
 const SocialMediaMarketing = () => {
   return (
     <div>
-        <Navbar/>
+     <Head>
+      <title>Affordable Social Media Marketing Services</title>
+      <meta name="description" content="Drive online success with social media ad management & promotion services offered by organic social media marketing company. Hire our agency today." />
+     </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="socialmedia1"

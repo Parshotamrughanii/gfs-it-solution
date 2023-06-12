@@ -2,9 +2,10 @@
 import React from "react";
 import ServiceHomePage from "../../../components/ServiceHomePage";
 import useIntersectionAnimations from "../../../components/UseIntersectionAnimations";
+import Head from "next/head";
 // import img from "../../../../assets/images/inner-pages/mobile-app/digital-marketing-bg.png";
 const DigitalMarketing = () => {
-    useIntersectionAnimations()
+  useIntersectionAnimations();
 
   const list = [
     {
@@ -15,8 +16,7 @@ const DigitalMarketing = () => {
       line3: "Brand Awareness",
       line4: "Track able",
       onClicks: () => {
-        window.location.href =
-          "/services/digital-marketing/seo";
+        window.location.href = "/services/digital-marketing/seo";
       },
     },
     {
@@ -26,9 +26,8 @@ const DigitalMarketing = () => {
       line2: "Track able",
       line3: "Instant Traffic",
       line4: "More Leads",
-         onClicks: () => {
-        window.location.href =
-          "/services/digital-marketing/google-ppc";
+      onClicks: () => {
+        window.location.href = "/services/digital-marketing/google-ppc";
       },
     },
     {
@@ -38,7 +37,7 @@ const DigitalMarketing = () => {
       line2: "Brand recognization",
       line3: "Higher conversion rates",
       line4: "increased traffic",
-         onClicks: () => {
+      onClicks: () => {
         window.location.href =
           "/services/digital-marketing/social-media-marketing";
       },
@@ -50,9 +49,8 @@ const DigitalMarketing = () => {
       line2: "Increase organic traffic",
       line3: "Cost-effective",
       line4: "Higher Credibility",
-         onClicks: () => {
-        window.location.href =
-          "/services/digital-marketing/email-marketing";
+      onClicks: () => {
+        window.location.href = "/services/digital-marketing/email-marketing";
       },
     },
     {
@@ -62,9 +60,8 @@ const DigitalMarketing = () => {
       line2: "Higher Profitability",
       line3: "Customer Analytics",
       line4: "Reduced Costs",
-         onClicks: () => {
-        window.location.href =
-          "/services/digital-marketing/mobile-marketing";
+      onClicks: () => {
+        window.location.href = "/services/digital-marketing/mobile-marketing";
       },
     },
     {
@@ -74,12 +71,11 @@ const DigitalMarketing = () => {
       line2: "SEO Optimization",
       line3: "More Impressions",
       line4: "Increased Revenues",
-         onClicks: () => {
-        window.location.href =
-          "/services/digital-marketing/content-marketing";
+      onClicks: () => {
+        window.location.href = "/services/digital-marketing/content-marketing";
       },
     },
-  
+
     {
       icon: "target 1",
       title: "Affiliate Marketing",
@@ -87,7 +83,7 @@ const DigitalMarketing = () => {
       line2: "Affiliate Marketplace",
       line3: "Highly Secure",
       line4: "Cost-effective",
-         onClicks: () => {
+      onClicks: () => {
         window.location.href =
           "/services/digital-marketing/affiliate-marketing";
       },
@@ -162,9 +158,18 @@ const DigitalMarketing = () => {
 
   return (
     <div>
+      <Head>
+        <title>
+          Hire Affordable Digital Marketing & Brand Development Services
+        </title>
+        <meta
+          name="description"
+          content="Ignite your brand's growth with our expert digital marketing and brand development services. Targeted strategies, captivating visuals, and increased visibility"
+        />
+      </Head>
       <ServiceHomePage
         // section banner -one
-      
+
         bgImage="linear-gradient(180deg, #7158AC -13.54%, #518ABC 100%)"
         bgColor="linear-gradient(180deg, #7158AC -13.54%, #518ABC 100%)"
         bannerImage="image 26"
@@ -210,11 +215,11 @@ const DigitalMarketing = () => {
             other digital channels to:
             <br />
             <br />
-            
-              • create strong online presence <br/>
-              • build brand awareness<br/>
-              • engage with customers in real-time <br/>
-              <br/>
+            • create strong online presence <br />
+            • build brand awareness
+            <br />
+            • engage with customers in real-time <br />
+            <br />
             <b>
               So, what are you waiting for? Don't let your business fall behind
               the times; call a marketing consultant online now!

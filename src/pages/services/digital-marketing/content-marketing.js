@@ -8,6 +8,7 @@ import RelatedServices from "../../../../components/RelatedServices";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/digital-marketing-bg.png";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -117,7 +118,10 @@ const relatedServiceData = [
 const ContentMarketing = () => {
   return (
     <div>
-        <Navbar/>
+    <Head>
+      <title>Online SEO Content Marketing Services Provider in USA</title>
+      <meta name="description" content="Hire a content marketer and unleash the power of our expert content marketing & strategy services. Drive growth, engagement, and success for your brand." />
+    </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="contentmarketing1"

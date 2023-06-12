@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import { Navbar } from "../../../../components/Navbar";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -60,7 +61,15 @@ const TechnologiesTypes = [
 const Ionic = () => {
   return (
     <div>
-        <Navbar/>
+      <Head>
+        <title>
+          Ionic Hybrid Mobile App Development Services | Ionic Consultant
+        </title>
+        <meta
+          name="description"
+          content="Stay ahead of the competition with our cutting-edge Ionic app development services. Scalable architecture, real-time updates, and exceptional user experience"
+        />
+      </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="ionic-banner"

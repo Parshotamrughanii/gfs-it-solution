@@ -8,6 +8,7 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -68,7 +69,11 @@ const TechnologiesTypes = [
 const SwiftDevelopmentService = () => {
   return (
     <div>
-        <Navbar/>
+      <Head>
+        <title>Swift App Development Services | Hire Swift App Developers</title>
+        <meta name="description" content="Ignite iOS success with our Swift app development services. Innovative features, seamless navigation, and flawless execution" />
+      </Head>
+
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="swift-banner"

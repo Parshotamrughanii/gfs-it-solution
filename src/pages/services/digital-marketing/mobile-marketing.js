@@ -8,6 +8,7 @@ import RelatedServices from "../../../../components/RelatedServices";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/digital-marketing-bg.png";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -104,7 +105,10 @@ const relatedServiceData = [
 const MobileMarketing = () => {
   return (
     <div>
-      <Navbar />
+   <Head>
+    <title>Best mobile app marketing & Consultant Company USA</title>
+    <meta name="description" content="Deliver impactful mobile campaigns for success. Our leading mobile advertising agency offers comprehensive solutions to reach your target audience." />
+   </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="mobilemarketing1"

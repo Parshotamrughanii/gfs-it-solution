@@ -9,6 +9,8 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import RelatedServices from "../../../../components/RelatedServices";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -32,36 +34,65 @@ const boxData = [
       "We believe in the power of iteration in UI UX testing. Through continuous testing and improvement cycles, we help you refine your design, making it better with each iteration. It's like a sculptor chiseling away at imperfections, gradually revealing the masterpiece within.",
   },
 ];
-const TechnologiesTypes = [
+const relatedServiceData = [
   {
-    icon: "asp",
-    title: "ASP .NET",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 1,
+    icon: "Brand Strategy",
+    title: "Brand Strategy",
+    line1: "Cross-platform framework",
+    line2: "Pre-built components",
+    line3: "Powerful command line interface",
+    line4: "Cordova plugins",
+    path: "/services/uiux-designing/brand-strategy",
   },
   {
-    icon: "typescript",
-    title: "TypeScript                      ",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 2,
+    icon: "Design Testing",
+    title: "Design Testing",
+    line1: "Single code-base Framework",
+    line2: "It’s all Widget Feature",
+    line3: "Open-Source",
+    line4: "High Community Support",
+    path: "/services/uiux-designing/design-testing",
   },
   {
-    icon: "python",
-    title: "Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 3,
+    icon: "Product Design",
+    title: "Product Design",
+    line1: "Higher Productivity",
+    line2: "Java Supported",
+    line3: "Consistent and Supportive",
+    line4: "Google Supported",
+    path: "/services/uiux-designing/product-design",
   },
   {
-    icon: "angular",
-    title: "Angular",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 4,
+    icon: "UX Research",
+    title: "UX Research",
+    line1: "Highly secure",
+    line2: "Scalable",
+    line3: "intuitive user interface",
+    line4: "customer Base Analytics",
+    path: "/services/uiux-designing/ux-research",
+  },
+  {
+    id: 5,
+    icon: "ui animation",
+    title: "UI & Animation",
+    line1: "Open-source platform",
+    line2: "Customization",
+    line3: "Feature0enrich apps",
+    line4: "Great user experience",
+    path: "/services/uiux-designing/ui-animation",
   },
 ];
 const DesignTesting = () => {
   return (
     <div>
-      <Navbar />
+     <Head>
+      <title>Mobile User Interface & Usability Testing Services</title>
+      <meta name="description" content="Ensure optimal mobile user experiences with UI & usability testing services. Our team conducts rigorous testing to enhance usability & drive user satisfaction." />
+     </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="design-testing1"
@@ -123,11 +154,7 @@ const DesignTesting = () => {
         }
         img="design-testing3"
       />
-      <AppDevelopmentTypes
-        headingTitle="Lorem ipsum dolor sit amet consectetur"
-        description="Our team is adept at leveraging the most updated tools and technologies."
-        TechnologiesTypes={TechnologiesTypes}
-      />
+      <RelatedServices data={relatedServiceData} />
       <Locations />
       <Footer />
     </div>

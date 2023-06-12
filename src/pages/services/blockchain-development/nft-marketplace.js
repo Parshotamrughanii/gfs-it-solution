@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Location from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
+import Head from "next/head";
 const boxData = [
   {
     title: "Seamless NFT Marketplace Design and Development",
@@ -95,7 +96,10 @@ const TechnologiesTypes = [
 const NFTMarketplace = () => {
   return (
     <div>
-      <Navbar />
+ <Head>
+  <title>White Label NFT Marketplace Design & Development Services</title>
+  <meta name="description" content="Launch your brand's NFT marketplace with our white label design & development services. Customizable, scalable, and user-centric solutions for success." />
+ </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="nft1"

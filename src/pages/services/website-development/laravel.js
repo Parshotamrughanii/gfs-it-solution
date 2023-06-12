@@ -9,6 +9,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/resuable-components/website-bg.png";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -89,6 +90,10 @@ const TechnologiesTypes = [
 const LaravelDevelopment = () => {
   return (
     <div>
+      <Head>
+        <title>Laravel Custom Web & Ecommerce Development Company USA</title>
+        <meta name="description" content="Custom Laravel development services: Tailored solutions for your specific business needs, leveraging the power of Laravel framework." />
+      </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="laravel-banner"

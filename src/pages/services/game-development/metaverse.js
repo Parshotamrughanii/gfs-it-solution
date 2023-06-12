@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
+import Head from "next/head";
 const boxData = [
   {
     title: "Power Of The Metaverse",
@@ -89,7 +90,10 @@ const TechnologiesTypes = [
 const Metaverse = () => {
   return (
     <div>
-      <Navbar />
+    <Head>
+      <title>Metaverse NFT Game Development Services | Metaverse Gaming</title>
+      <meta name="description" content="Step into the limitless realm of the metaverse with our metaverse NFT game development company. Join us on creating metaverse gaming experiences." />
+    </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="metaverse1"

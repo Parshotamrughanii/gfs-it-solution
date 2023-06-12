@@ -8,6 +8,8 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Location from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/EBackground.png";
+import RelatedServices from "../../../../components/RelatedServices";
+import Head from "next/head";
 const boxData = [
   {
     title: "BigCommerce Integration Services",
@@ -50,36 +52,57 @@ const boxData = [
       "Your online store is our canvas, and we wield the brush of web development to create a masterpiece. With our BigCommerce web development services, we sculpt websites as dynamic as a chameleon, adapting to your business needs and ensuring seamless user experiences. ",
   },
 ];
-const TechnologiesTypes = [
+const relatedServiceData = [
   {
-    icon: "asp",
-    title: "ASP .NET",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 1,
+    icon: "Shopify",
+    title: "Shopify",
+    line1: "Customized Theme",
+    line2: "Community Support",
+    line3: "Flexibility",
+    line4: "Enhanced Security",
+    path: "/services/e-commerce/shopify",
   },
   {
-    icon: "typescript",
-    title: "TypeScript                      ",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 2,
+    icon: "Magento",
+    title: "Magento",
+    line1: "Easy Integration",
+      line2: "Customizable UI",
+      line3: "Multi-language Support",
+      line4: "Multi-currency Support",
+      path: "/services/e-commerce/magento",
   },
   {
-    icon: "python",
-    title: "Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 3,
+    icon: "BigCommerce",
+    title: "BigCommerce",
+    line1: "SEO-friendly platform",
+      line2: "Built-in marketing tools",
+      line3: "Powerful API capabilities",
+      line4: "Scalability",
+      path: "/services/e-commerce/bigCommerce",
   },
   {
-    icon: "angular",
-    title: "Angular",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 4,
+    icon: "WooCommerce",
+    title: "WooCommerce",
+    line1: "Multi-currency Support",
+    line2: "Easy Configuration",
+    line3: "Built-in features & Plugins",
+    line4: "Intuitive Interface",
+    path: "/services/e-commerce/wooCommerce",
   },
+
+  
 ];
 const BigCommerce = () => {
   return (
     <div>
-      <Navbar />
+     <Head>
+      <title>Bigcommerce Web Design and Development Services</title>
+      <meta name="description" content="Drive success with our professional BigCommerce web design and development services. Engaging visuals, easy navigation, and robust functionalities" />
+     </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="bigcommerce1"
@@ -134,11 +157,7 @@ const BigCommerce = () => {
         }
         img="bigcommerce3"
       />
-      <AppDevelopmentTypes
-        headingTitle="Lorem ipsum dolor sit amet consectetur"
-        description="Our team is adept at leveraging the most updated tools and technologies."
-        TechnologiesTypes={TechnologiesTypes}
-      />
+        <RelatedServices data={relatedServiceData} />
       <Location />
       <Footer />
     </div>

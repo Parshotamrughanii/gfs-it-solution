@@ -8,6 +8,8 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Location from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import RelatedServices from "../../../../components/RelatedServices";
+import Head from "next/head";
 const boxData = [
   {
     title: "Seamless Shopify Store Development Services",
@@ -35,36 +37,57 @@ const boxData = [
   },
   
 ];
-const TechnologiesTypes = [
+const relatedServiceData = [
   {
-    icon: "asp",
-    title: "ASP .NET",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 1,
+    icon: "Shopify",
+    title: "Shopify",
+    line1: "Customized Theme",
+    line2: "Community Support",
+    line3: "Flexibility",
+    line4: "Enhanced Security",
+    path: "/services/e-commerce/shopify",
   },
   {
-    icon: "typescript",
-    title: "TypeScript                      ",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 2,
+    icon: "Magento",
+    title: "Magento",
+    line1: "Easy Integration",
+      line2: "Customizable UI",
+      line3: "Multi-language Support",
+      line4: "Multi-currency Support",
+      path: "/services/e-commerce/magento",
   },
   {
-    icon: "python",
-    title: "Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 3,
+    icon: "BigCommerce",
+    title: "BigCommerce",
+    line1: "SEO-friendly platform",
+      line2: "Built-in marketing tools",
+      line3: "Powerful API capabilities",
+      line4: "Scalability",
+      path: "/services/e-commerce/bigCommerce",
   },
   {
-    icon: "angular",
-    title: "Angular",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 4,
+    icon: "WooCommerce",
+    title: "WooCommerce",
+    line1: "Multi-currency Support",
+    line2: "Easy Configuration",
+    line3: "Built-in features & Plugins",
+    line4: "Intuitive Interface",
+    path: "/services/e-commerce/wooCommerce",
   },
+
+  
 ];
 const Shopify = () => {
   return (
     <div>
-      <Navbar />
+      <Head>
+        <title>Hire Custom Shopify Web Store Development Services & Support</title>
+        <meta name="description" content="Maximize your Shopify store's potential with our custom web store development expertise. Custom features, easy navigation, & improved customer engagement" />
+      </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="shopify1"
@@ -126,11 +149,7 @@ const Shopify = () => {
         }
         img="shopify3"
       />
-      <AppDevelopmentTypes
-        headingTitle="Lorem ipsum dolor sit amet consectetur"
-        description="Our team is adept at leveraging the most updated tools and technologies."
-        TechnologiesTypes={TechnologiesTypes}
-      />
+     <RelatedServices data={relatedServiceData} />
       <Location />
       <Footer />
     </div>

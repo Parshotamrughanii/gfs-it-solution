@@ -9,6 +9,7 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import Head from "next/head";
 // import "./AspNet.css";
 
 const boxData = [
@@ -89,7 +90,10 @@ const TechnologiesTypes = [
 const AspNet = () => {
   return (
     <div>
-        <Navbar/>
+   <Head>
+    <title>MVC Web & ASP.NET Core Development Company in USA</title>
+    <meta name="description" content="Empower your success with a top asp.net core development company. Unlock the potential of custom asp.net mvc web development services." />
+   </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="asp-banner"

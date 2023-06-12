@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
+import Head from "next/head";
 const boxData = [
   {
     title: "Immersive Environments",
@@ -89,7 +90,10 @@ const TechnologiesTypes = [
 const AugmentedReality = () => {
   return (
     <div>
-      <Navbar />
+    <Head>
+      <title>Augmented Reality Game Development Company | AR Developer</title>
+      <meta name="description" content="Experience the magic of augmented reality games with our expert AR development services. Unlock captivating AR experiences with our dedicated team of developers." />
+    </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="augmented1"

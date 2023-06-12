@@ -7,6 +7,7 @@ import AppProductDevelopment from '../../../../components/AppProductDevelopment'
 import AppDevelopmentTypes from '../../../../components/AppDevelopmentTypes';
 import Locations from '../../../../components/Locations';
 import Footer from '../../../../components/Footer';
+import Head from 'next/head';
 
 const boxData = [
     {
@@ -89,6 +90,10 @@ const boxData = [
 const IOSAppDevelopment = () => {
   return (
     <div>
+      <Head>
+        <title>Custom iOS App Design & Development Services | iOS App Developers</title>
+        <meta name="description" content="Specializing in business iOS app development, we create customized applications that empower your company's growth and enhance productivity" />
+      </Head>
            <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="ios-banner"

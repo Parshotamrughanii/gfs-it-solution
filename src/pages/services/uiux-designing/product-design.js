@@ -8,6 +8,8 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import { Navbar } from "../../../../components/Navbar";
+import RelatedServices from "../../../../components/RelatedServices";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -27,36 +29,66 @@ const boxData = [
     description: "Trends may come and go, but timeless design endures. In our digital product design services, we strive to create products that stand the test of time, transcending fleeting fads and becoming timeless icons. ",
   },
 ];
-const TechnologiesTypes = [
+const relatedServiceData = [
   {
-    icon: "asp",
-    title: "ASP .NET",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 1,
+    icon: "Brand Strategy",
+    title: "Brand Strategy",
+      line1: "Cross-platform framework",
+      line2: "Pre-built components",  
+      line3: "Powerful command line interface",
+      line4: "Cordova plugins",
+    path: "/services/uiux-designing/brand-strategy",
   },
   {
-    icon: "typescript",
-    title: "TypeScript                      ",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 2,
+    icon: "Design Testing",
+    title: "Design Testing",
+    line1: "Single code-base Framework",
+      line2: "It’s all Widget Feature",
+      line3: "Open-Source",
+      line4: "High Community Support",
+    path: "/services/uiux-designing/design-testing",
   },
   {
-    icon: "python",
-    title: "Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 3,
+    icon: "Product Design",
+    title: "Product Design",
+    line1: "Higher Productivity",
+    line2: "Java Supported",
+    line3: "Consistent and Supportive",
+    line4: "Google Supported",
+    path: "/services/uiux-designing/product-design",
   },
   {
-    icon: "angular",
-    title: "Angular",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.",
+    id: 4,
+    icon: "UX Research",
+    title: "UX Research",
+    line1: "Highly secure",
+    line2: "Scalable",
+    line3: "intuitive user interface",
+    line4: "customer Base Analytics",
+    path: "/services/uiux-designing/ux-research",
   },
+  {
+    id: 5,
+    icon: "ui animation",
+    title: "UI & Animation",
+    line1: "Open-source platform",
+    line2: "Customization",
+    line3: "Feature0enrich apps",
+    line4: "Great user experience",
+    path: "/services/uiux-designing/ui-animation",
+  },
+  
 ];
 const ProductDesign = () => {
   return (
     <div>
-      <Navbar />
+     <Head>
+      <title>Hire Digital Product Design & Development Services</title>
+      <meta name="description" content="Ignite innovation with our transformative digital product design services. Hire UX product designers for concept design to bring your vision to reality." />
+     </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="productdesign"
@@ -112,11 +144,7 @@ const ProductDesign = () => {
         }
         img="product-design3"
       />
-      <AppDevelopmentTypes
-        headingTitle="Lorem ipsum dolor sit amet consectetur"
-        description="Our team is adept at leveraging the most updated tools and technologies."
-        TechnologiesTypes={TechnologiesTypes}
-      />
+   <RelatedServices data={relatedServiceData} />
       <Locations />
       <Footer />
     </div>

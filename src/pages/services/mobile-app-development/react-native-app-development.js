@@ -8,6 +8,7 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -76,7 +77,11 @@ const TechnologiesTypes = [
 const ReactNativeDevelopment = () => {
   return (
     <div>
-        <Navbar/>
+      <Head>
+        <title>Hire Custom React Native App Development Services</title>
+        <meta name="description" content="Experience the power of React Native for your app's growth. Our development services deliver high-quality, scalable solutions for multiple platforms." />
+      </Head>
+
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="react-native-banner"

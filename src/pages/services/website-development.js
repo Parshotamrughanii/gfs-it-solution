@@ -2,6 +2,7 @@
 import React from "react";
 // import img from "../assets/images/inner-pages/mobile-app/bg1.png";
 import ServiceHomePage from "../../../components/ServiceHomePage";
+import Head from "next/head";
 const WebsiteDevelopment = () => {
   const list = [
     {
@@ -11,7 +12,9 @@ const WebsiteDevelopment = () => {
       line2: "Fast Execution",
       line3: "Large Ecosystem",
       line4: "Lesser Coding",
-     onClicks: ()=>{window.location.href=('/services/website-development/asp-net')},
+      onClicks: () => {
+        window.location.href = "/services/website-development/asp-net";
+      },
     },
     {
       icon: "Mask group (3)",
@@ -20,7 +23,9 @@ const WebsiteDevelopment = () => {
       line2: "Object-oriented Language",
       line3: "Cross-platform Compatible",
       line4: "Highly Productive ",
-     onClicks: ()=>{window.location.href=('/services/website-development/typscript')},
+      onClicks: () => {
+        window.location.href = "/services/website-development/typscript";
+      },
     },
     {
       icon: "Mask group (4)",
@@ -29,7 +34,9 @@ const WebsiteDevelopment = () => {
       line2: "Community Support",
       line3: "Code Reusability",
       line4: "Highly Efficient",
-     onClicks: ()=>{window.location.href=('/services/website-development/python')},
+      onClicks: () => {
+        window.location.href = "/services/website-development/python";
+      },
     },
     {
       icon: "Group (9)",
@@ -38,7 +45,9 @@ const WebsiteDevelopment = () => {
       line2: "Reusable Components",
       line3: "Two-way Data Binding",
       line4: "Dependency Injection",
-     onClicks: ()=>{window.location.href=('/services/website-development/angular')},
+      onClicks: () => {
+        window.location.href = "/services/website-development/angular";
+      },
     },
     {
       icon: "Group 1342",
@@ -47,7 +56,9 @@ const WebsiteDevelopment = () => {
       line2: "Flexible",
       line3: "Low Maintenance",
       line4: "Enhanced Scalability",
-     onClicks: ()=>{window.location.href=('/services/website-development/php')},
+      onClicks: () => {
+        window.location.href = "/services/website-development/php";
+      },
     },
     {
       icon: "Vector (5)",
@@ -56,7 +67,9 @@ const WebsiteDevelopment = () => {
       line2: "Multilingual Options",
       line3: "Highly Secure",
       line4: "Highly Flexible",
-     onClicks: ()=>{window.location.href=('/services/website-development/laravel')},
+      onClicks: () => {
+        window.location.href = "/services/website-development/laravel";
+      },
     },
     {
       icon: "wordpress 1",
@@ -65,9 +78,10 @@ const WebsiteDevelopment = () => {
       line2: "Multiple Hosting Platform",
       line3: "Community Support",
       line4: "Customer Analytics",
-     onClicks: ()=>{window.location.href=('/services/website-development/wordpress')},
+      onClicks: () => {
+        window.location.href = "/services/website-development/wordpress";
+      },
     },
-    
   ];
 
   const tabList = [
@@ -144,6 +158,15 @@ const WebsiteDevelopment = () => {
 
   return (
     <div>
+      <Head>
+        <title>
+          Affordable Professional Custom Web Design & Development Services
+        </title>
+        <meta
+          name="description"
+          content="Supercharge your online presence without breaking the bank. Affordable web development services creating stunning websites that drive results."
+        />
+      </Head>
       <ServiceHomePage
         // section banner -one
         bgImage="linear-gradient(181.22deg, #404D65 1.21%, #50627B 99.14%)"
@@ -191,7 +214,6 @@ const WebsiteDevelopment = () => {
             <br />
             <br />
             <em>
-              
               Whether you're looking to build a simple website or a complex web
               application, GFS IT Solutions has the expertise to bring your
               vision to life

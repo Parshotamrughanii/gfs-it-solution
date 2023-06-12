@@ -7,6 +7,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
+import Head from "next/head";
 const boxData = [
   {
     title: "Impeccable Security",
@@ -33,7 +34,7 @@ const TechnologiesTypes = [
   {
     icon: "Wallet",
     title: "Crypto Wallet Development",
-    path:"/services/blockchain-development/wallet",
+    path: "/services/blockchain-development/wallet",
     description:
       "Safeguard your digital assets with a secure and user-friendly wallet tailored to your needs.",
     onClick: () =>
@@ -42,7 +43,7 @@ const TechnologiesTypes = [
   {
     icon: "Private Blockchain",
     title: "Private Blockchain Development",
-    path:"/services/blockchain-development/private-blockchain",
+    path: "/services/blockchain-development/private-blockchain",
 
     description:
       "Experience enhanced privacy and control with a customized private blockchain solution.",
@@ -52,7 +53,7 @@ const TechnologiesTypes = [
   {
     icon: "Exchange",
     title: "Exchange Development",
-    path:"/services/blockchain-development/exchange",
+    path: "/services/blockchain-development/exchange",
     description:
       "Empower seamless cryptocurrency trading experiences with our cutting-edge exchange platform.",
     onClick: () =>
@@ -61,7 +62,7 @@ const TechnologiesTypes = [
   {
     icon: "NFT Marketplace",
     title: "NFT Marketplace Development",
-    path:"/services/blockchain-development/nft-marketplace",
+    path: "/services/blockchain-development/nft-marketplace",
 
     description:
       "Dive into the world of digital collectibles and create a thriving marketplace for unique NFTs.",
@@ -71,7 +72,7 @@ const TechnologiesTypes = [
   {
     icon: "Ethereum",
     title: "Ethereum Development",
-    path:"/services/blockchain-development/ethereum",
+    path: "/services/blockchain-development/ethereum",
     description:
       "Harness the power of Ethereum to build decentralized applications that redefine possibilities.",
     onClick: () =>
@@ -80,7 +81,7 @@ const TechnologiesTypes = [
   {
     icon: "Hyperledger",
     title: "Hyperledger Development",
-    path:"/services/blockchain-development/hyperledger",
+    path: "/services/blockchain-development/hyperledger",
     description:
       "Leverage the robustness of Hyperledger technology for building enterprise-grade blockchain solutions.",
     onClick: () =>
@@ -89,7 +90,7 @@ const TechnologiesTypes = [
   {
     icon: "Smart Contract",
     title: "Smart Contract Development",
-    path:"/services/blockchain-development/smart-contract",
+    path: "/services/blockchain-development/smart-contract",
     description:
       "Automate transactions and agreements with intelligent, self-executing smart contracts.",
     onClick: () =>
@@ -99,6 +100,13 @@ const TechnologiesTypes = [
 const SmartContract = () => {
   return (
     <div>
+      <Head>
+        <title>DeFi Smart Contract Application Development Services</title>
+        <meta
+          name="description"
+          content="Accelerate your DeFi project with our smart contract application development services. Interoperable solutions, audited contracts, & enhanced security"
+        />
+      </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="smartcontract1"
@@ -163,7 +171,7 @@ const SmartContract = () => {
         }
         img="smartcontract3"
       />
-   <AppDevelopmentTypes
+      <AppDevelopmentTypes
         headingTitle="Experience Cutting-Edge Blockchain Services Tailored to Your Needs"
         description="Embrace the future of technology with our comprehensive suite of blockchain services, revolutionizing industries and opening new doors of opportunity."
         TechnologiesTypes={TechnologiesTypes}

@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
+import Head from "next/head";
 const boxData = [
   {
     title: "Unity 3D Game Design And Development",
@@ -89,7 +90,10 @@ const TechnologiesTypes = [
 const Unity = () => {
   return (
     <div>
-      <Navbar />
+   <Head>
+    <title>Unity 3D Mobile Game Development Company | Unity 3D Game</title>
+    <meta name="description" content="Immerse yourself in captivating Unity 3D mobile games. Unity game developers crafts engaging experiences for your gaming venture." />
+   </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="unity1"

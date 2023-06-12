@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
+import Head from "next/head";
 const boxData = [
   {
     title: "Cutting-Edge Technology",
@@ -89,7 +90,10 @@ const TechnologiesTypes = [
 const VirtualReality = () => {
   return (
     <div>
-      <Navbar />
+      <Head>
+        <title>Virtual Reality Game Development Company | VR Developers</title>
+        <meta name="description" content="Immerse yourself in the virtual world with our top-notch VR game development services. Our skilled VR developers craft unforgettable gaming experiences." />
+      </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="virtual1"

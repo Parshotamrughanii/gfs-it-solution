@@ -8,6 +8,7 @@ import AppDevelopmentWhy from "../../../../components/AppDevelopmentWhy";
 import AppDevelopmentBanner from "../../../../components/AppDevelopmentBanner";
 import { Navbar } from "../../../../components/Navbar";
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -60,7 +61,10 @@ const TechnologiesTypes = [
 const HybridAppDevelopment = () => {
   return (
     <div>
-        <Navbar/>
+      <Head>
+        <title>Hybrid Mobile App Development Service | Html App Development</title>
+        <meta name="description" content="Hybrid app development service: We create cross-platform apps with native-like experiences, expanding your reach and delivering exceptional user satisfaction" />
+      </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="hybrid-banner"

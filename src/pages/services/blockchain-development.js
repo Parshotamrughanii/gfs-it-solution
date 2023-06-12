@@ -5,6 +5,7 @@ import React from "react";
 import ServiceHomePage from "../../../components/ServiceHomePage";
 import BlockChainCTN from "../../../components/BlockChainCTN";
 import useIntersectionAnimations from "../../../components/UseIntersectionAnimations";
+import Head from "next/head";
 const BlockchainDevelopmentServices = () => {
     useIntersectionAnimations()
 
@@ -187,6 +188,10 @@ const BlockchainDevelopmentServices = () => {
 
   return (
     <div>
+      <Head>
+        <title>Hire Blockchain Development & NFT Art Creation Services</title>
+        <meta name="description" content="Build hybrid blockchains and shape the metaverse with our expert development services. Secure, transparent, and decentralized solutions for your business's future" />
+      </Head>
       <ServiceHomePage
         // section banner -one
         bgImage="#000A40"

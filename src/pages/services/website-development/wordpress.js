@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Location from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/resuable-components/website-bg.png";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -103,6 +104,10 @@ const TechnologiesTypes = [
 const WordpressDevelopment = () => {
   return (
     <div>
+      <Head>
+        <title> Custom WordPress Development Services USA | Hire WordPress Developers</title>
+        <meta name="description" content="In search of a top WordPress development company based in USA? Look no further! Our expertise lies in crafting customize WordPress development solutions." />
+      </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="wordpress-banner"

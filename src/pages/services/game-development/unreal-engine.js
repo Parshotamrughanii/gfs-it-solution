@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Location from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
+import Head from "next/head";
 const boxData = [
   {
     title: "Power Of Unreal Engine",
@@ -117,7 +118,10 @@ const TechnologiesTypes = [
 const UnrealEngine = () => {
   return (
     <div>
-      <Navbar />
+    <Head>
+      <title>Hire Unreal Engine Game Development Company | Unreal Game</title>
+    <meta name="description" content="Level up your gaming experience with our Unreal Engine game development services. Hire unreal game developers for immersive & captivating unreal games." />
+    </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="unreal1"

@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from "react";
 import ServiceHomePage from "../../../components/ServiceHomePage";
+import Head from "next/head";
 // import img from "../../../../assets/images/inner-pages/mobile-app/EBackground.png";
 const EcommerceDevelopment = () => {
   const list = [
@@ -112,6 +113,13 @@ const EcommerceDevelopment = () => {
 
   return (
     <div>
+      <Head>
+        <title>Hire Custom E-commerce Website Development Services</title>
+        <meta
+          name="description"
+          content="Drive online sales with our expert e-commerce website development services. User-friendly interfaces, secure payment gateways, and optimized performance"
+        />
+      </Head>
       <ServiceHomePage
         // section banner -one
         bgImage="linear-gradient(180deg, #48987D -13.54%, #12403A 100%)"
@@ -256,7 +264,6 @@ const EcommerceDevelopment = () => {
             unique needs of the health and wellness sector, ensuring that your
             online store is a haven for those seeking to improve their lives.
             <b>
-              
               Delight your customers with an intuitive platform that promotes
               your products and enhances their journey to wellness
             </b>

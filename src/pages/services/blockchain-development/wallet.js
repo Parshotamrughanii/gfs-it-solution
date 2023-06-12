@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Location from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -101,7 +102,10 @@ const TechnologiesTypes = [
 const Wallet = () => {
   return (
     <div>
-      <Navbar />
+    <Head>
+      <title>NFT Cryptocurrency Wallet App Development Services</title>
+      <meta name="description" content="Securely manage your digital assets with our cryptocurrency wallet app development service. User-friendly, reliable, & advanced features for seamless transactions" />
+    </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="wallet1"

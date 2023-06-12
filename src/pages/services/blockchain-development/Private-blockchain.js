@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
+import Head from "next/head";
 const boxData = [
   {
     title: "Security Reinvented",
@@ -100,7 +101,10 @@ const TechnologiesTypes = [
 const PrivateBlockchain = () => {
   return (
     <div>
-      <Navbar />
+    <Head>
+      <title>Hire Custom Private Blockchain Development Services</title>
+      <meta name="description" content="Take control of your data and processes with our dedicated custom private blockchain development services. Tailored solutions for your specific requirements." />
+    </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="privateblockchain1"

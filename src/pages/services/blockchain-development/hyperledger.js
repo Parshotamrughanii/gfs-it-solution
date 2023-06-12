@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
+import Head from "next/head";
 const boxData = [
   {
     title: "Customized Hyperledger Solutions",
@@ -100,7 +101,10 @@ const TechnologiesTypes = [
 const Hyperledger = () => {
   return (
     <div>
-      <Navbar />
+   <Head>
+    <title>Hyperledger Blockchain Development & Consulting Services</title>
+    <meta name="description" content="Transform your business processes with our Hyperledger blockchain development services. Seamless integration, Security, & Immutable record-keeping" />
+   </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="hyperledger1"

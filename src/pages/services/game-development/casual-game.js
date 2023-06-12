@@ -8,6 +8,7 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import Head from "next/head";
 const boxData = [
   {
     title: "Hyper Casual Games Development ",
@@ -92,7 +93,10 @@ const TechnologiesTypes = [
 const CasualGames = () => {
   return (
     <div>
-      <Navbar />
+      <Head>
+        <title>Custom Hyper Casual Mobile Game App Development Services </title>
+        <meta name="description" content="Enter the hyper casual gaming world with our custom mobile game development services. Create divine android casual games that entertain & engage players." />
+      </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="casual1"

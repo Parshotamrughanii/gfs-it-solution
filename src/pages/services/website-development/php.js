@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/resuable-components/website-bg.png";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -87,6 +88,10 @@ const TechnologiesTypes = [
 const PhpDevelopmentServices = () => {
   return (
     <div>
+      <Head>
+        <title>Professional PHP Development Services | PHP Web Development</title>
+        <meta name="description" content="Looking for PHP web development services? Our team specializes in custom php e-commerce store development to enhance your business." />
+      </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="php-banner"

@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from "react";
 import ServiceHomePage from "../../../components/ServiceHomePage";
+import Head from "next/head";
 // import img from "../../../../assets/images/inner-pages/mobile-app/bg-game.png";
 const GameDevelopmentServices = () => {
   const list = [
@@ -158,6 +159,10 @@ const GameDevelopmentServices = () => {
 
   return (
     <div>
+      <Head>
+        <title>Custom Game Design & Development Services | Hire Game Developers</title>
+        <meta name="description" content="Level up your gaming vision with our custom game design and development services. Engaging gameplay, immersive graphics, and seamless experiences" />
+      </Head>
       <ServiceHomePage
         // section banner -one
         bgImage="linear-gradient(180deg, #11143A -1.82%, rgba(10, 15, 80, 0.74) 118.19%)"

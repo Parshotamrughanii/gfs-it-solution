@@ -8,6 +8,7 @@ import RelatedServices from "../../../../components/RelatedServices";
 import Location from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/digital-marketing-bg.png";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -104,7 +105,10 @@ const relatedServiceData = [
 const AffiliateMarketing = () => {
   return (
     <div>
-      <Navbar />
+  <Head>
+    <title>Affiliate Marketing Services USA: Strategic Consultation Experts</title>
+    <meta name="description" content="Unlock full potential of affiliate marketing with our comprehensive solutions. Our agency offers expert guidance, innovative strategies, and measurable results." />
+  </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="affiliatemarketing1"

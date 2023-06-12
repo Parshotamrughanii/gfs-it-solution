@@ -8,6 +8,7 @@ import AppProductDevelopment from "../../../../components/AppProductDevelopment"
 import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -87,7 +88,10 @@ const TechnologiesTypes = [
 const TypeScriptWebDevelopment = () => {
   return (
     <div>
-        <Navbar/>
+     <Head>
+      <title>Hire TypeScript Developer | Typescript Full Stack Developer</title>
+      <meta name="description" content="Looking to hire TypeScript developers? Our typescript full stack developers bring expertise in TypeScript development, ensuring the success of your projects." />
+     </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="ts-banner"

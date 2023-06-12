@@ -8,6 +8,7 @@ import AppDevelopmentTypes from "../../../../components/AppDevelopmentTypes";
 import Locations from "../../../../components/Locations";
 import Footer from "../../../../components/Footer";
 import bannerImg from "../../../assets/images/inner-pages/mobile-app/bg-game.png";
+import Head from "next/head";
 
 const boxData = [
   {
@@ -97,7 +98,10 @@ const TechnologiesTypes = [
 const Exchange = () => {
   return (
     <div>
-      <Navbar />
+    <Head>
+      <title>Cryptocurrency Exchange Software Development Services Company</title>
+      <meta name="description" content="Stay ahead in the competitive crypto market with our expert software development services. Streamlined workflows, robust security, and unmatched reliability." />
+    </Head>
       <AppDevelopmentBanner
         bannerImg={bannerImg}
         img="exchange1"
