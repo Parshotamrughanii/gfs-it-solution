@@ -7,13 +7,15 @@ import LearnMoreButton from "components/LearnMoreButton";
 import ServiceSectionSlider from "../../components/ServiceSectionSlider";
 import UseIntersectionAnimations from "../../components/UseIntersectionAnimations";
 import Head from "next/head";
+import { useRouter } from "next/router";
 
 const services = () => {
   UseIntersectionAnimations()
-
+  const currentPath = useRouter().asPath;
   return (
     <div>
       <Head>
+      <link rel="canonical" href={currentPath} /> 
       <title>GFS IT Solutions</title>
       </Head>
       <Navbar />
