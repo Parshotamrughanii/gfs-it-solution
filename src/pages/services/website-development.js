@@ -1,8 +1,8 @@
 /* eslint-disable */
-import React from "react";
-// import img from "../assets/images/inner-pages/mobile-app/bg1.png";
-import ServiceHomePage from "../../../components/ServiceHomePage";
-import Head from "next/head";
+import React from "react"
+// import img from "../assets/images/inner-pages/mobile-app/bg1.png"
+import ServiceHomePage from "../../../components/ServiceHomePage"
+import Head from "next/head"
 const WebsiteDevelopment = () => {
   const list = [
     {
@@ -12,9 +12,8 @@ const WebsiteDevelopment = () => {
       line2: "Fast Execution",
       line3: "Large Ecosystem",
       line4: "Lesser Coding",
-      onClicks: () => {
-        window.location.href = "/services/website-development/asp-net";
-      },
+      onClicks:"/services/website-development/asp-net"
+     
     },
     {
       icon: "Mask group (3)",
@@ -23,9 +22,8 @@ const WebsiteDevelopment = () => {
       line2: "Object-oriented Language",
       line3: "Cross-platform Compatible",
       line4: "Highly Productive ",
-      onClicks: () => {
-        window.location.href = "/services/website-development/typscript";
-      },
+      onClicks:"/services/website-development/typscript"
+    
     },
     {
       icon: "Mask group (4)",
@@ -34,10 +32,9 @@ const WebsiteDevelopment = () => {
       line2: "Community Support",
       line3: "Code Reusability",
       line4: "Highly Efficient",
-      onClicks: () => {
-        window.location.href = "/services/website-development/python";
+      onClicks:"/services/website-development/python"
       },
-    },
+    
     {
       icon: "Group (9)",
       title: "ANGULAR",
@@ -45,10 +42,9 @@ const WebsiteDevelopment = () => {
       line2: "Reusable Components",
       line3: "Two-way Data Binding",
       line4: "Dependency Injection",
-      onClicks: () => {
-        window.location.href = "/services/website-development/angular";
+      onClicks:"/services/website-development/angular"
       },
-    },
+    
     {
       icon: "Group 1342",
       title: "PHP",
@@ -56,10 +52,9 @@ const WebsiteDevelopment = () => {
       line2: "Flexible",
       line3: "Low Maintenance",
       line4: "Enhanced Scalability",
-      onClicks: () => {
-        window.location.href = "/services/website-development/php";
+      onClicks:"/services/website-development/php"
       },
-    },
+    
     {
       icon: "Vector (5)",
       title: "Laravel",
@@ -67,9 +62,8 @@ const WebsiteDevelopment = () => {
       line2: "Multilingual Options",
       line3: "Highly Secure",
       line4: "Highly Flexible",
-      onClicks: () => {
-        window.location.href = "/services/website-development/laravel";
-      },
+      onClicks:"/services/website-development/laravel"
+    
     },
     {
       icon: "wordpress 1",
@@ -78,9 +72,8 @@ const WebsiteDevelopment = () => {
       line2: "Multiple Hosting Platform",
       line3: "Community Support",
       line4: "Customer Analytics",
-      onClicks: () => {
-        window.location.href = "/services/website-development/wordpress";
-      },
+      onClicks:"/services/website-development/wordpress"
+      
     },
   ];
 

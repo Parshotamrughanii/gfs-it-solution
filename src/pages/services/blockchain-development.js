@@ -17,10 +17,7 @@ const BlockchainDevelopmentServices = () => {
       line2: "Jaxx Wallet",
       line3: "Samurai Wallet",
       line4: "Paper Wallet",
-      onClicks: () => {
-        window.location.href =
-          "/services/blockchain-development/wallet";
-      },
+      onClicks:"/services/blockchain-development/wallet"
     },
     {
       icon: "Private Blockchain",
@@ -29,10 +26,7 @@ const BlockchainDevelopmentServices = () => {
       line2: "Quorum",
       line3: "R3 Corda",
       line4: "Tezos",
-       onClicks: () => {
-        window.location.href =
-          "/services/blockchain-development/Private-blockchain";
-      },
+       onClicks:"/services/blockchain-development/Private-blockchain"
     },
     {
       icon: "Exchange",
@@ -41,10 +35,7 @@ const BlockchainDevelopmentServices = () => {
       line2: "Anonymity",
       line3: "Highly Secure",
       line4: "Irreversible Transactions",
-       onClicks: () => {
-        window.location.href =
-          "/services/blockchain-development/exchange";
-      },
+       onClicks:"/services/blockchain-development/exchange"
     },
     {
       icon: "NFT Marketplace",
@@ -53,10 +44,7 @@ const BlockchainDevelopmentServices = () => {
       line2: "Nifty Gateway",
       line3: "Rarible",
       line4: "SuperRate & Binance",
-       onClicks: () => {
-        window.location.href =
-          "/services/blockchain-development/nft-marketplace";
-      },
+       onClicks:"/services/blockchain-development/nft-marketplace"
     },
     {
       icon: "Ethereum",
@@ -65,10 +53,7 @@ const BlockchainDevelopmentServices = () => {
       line2: "Community support",
       line3: "Asset Issuance",
       line4: "Fast & Uncensored",
-       onClicks: () => {
-        window.location.href =
-          "/services/blockchain-development/ethereum";
-      },
+       onClicks:"/services/blockchain-development/ethereum"
     },
     {
       icon: "Hyperledger",
@@ -77,10 +62,7 @@ const BlockchainDevelopmentServices = () => {
       line2: "Modular architecture",
       line3: "Smooth transactions",
       line4: "Immutable ledger",
-       onClicks: () => {
-        window.location.href =
-          "/services/blockchain-development/hyperledger";
-      },
+       onClicks:"/services/blockchain-development/hyperledger"
     },
     {
       icon: "Smart Contract",
@@ -89,10 +71,7 @@ const BlockchainDevelopmentServices = () => {
       line2: "Avoids Third Part Reliance",
       line3: "Secure & Fast",
       line4: "Database management",
-       onClicks: () => {
-        window.location.href =
-          "/services/blockchain-development/smart-contract";
-      },
+       onClicks:"/services/blockchain-development/smart-contract"
     },
   ];
 
@@ -420,7 +399,7 @@ const BlockchainDevelopmentServices = () => {
           </span>
         }
         CTN={<>
-        <BlockChainCTN onClick={() => (window.location.href = "/contactus")} title="Get in Touch"/>
+       <BlockChainCTN onClick={() => (window.location.href = "/contactus")} title="Get in Touch"/>
         </>}
       />
     </div>

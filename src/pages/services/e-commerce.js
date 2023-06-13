@@ -12,9 +12,7 @@ const EcommerceDevelopment = () => {
       line2: "Community Support",
       line3: "Flexibility",
       line4: "Enhanced Security",
-      onClicks: () => {
-        window.location.href = "/services/e-commerce/shopify";
-      },
+      onClicks:"/services/e-commerce/shopify"
     },
     {
       icon: "Magento",
@@ -23,9 +21,7 @@ const EcommerceDevelopment = () => {
       line2: "Customizable UI",
       line3: "Multi-language Support",
       line4: "Multi-currency Support",
-      onClicks: () => {
-        window.location.href = "/services/e-commerce/magento";
-      },
+      onClicks:"/services/e-commerce/magento"
     },
     {
       icon: "BigCommerce",
@@ -34,9 +30,7 @@ const EcommerceDevelopment = () => {
       line2: "Built-in marketing tools",
       line3: "Powerful API capabilities",
       line4: "Scalability",
-      onClicks: () => {
-        window.location.href = "/services/e-commerce/bigCommerce";
-      },
+      onClicks:"/services/e-commerce/bigCommerce"
     },
     {
       icon: "WooCommerce",
@@ -45,9 +39,7 @@ const EcommerceDevelopment = () => {
       line2: "Easy Configuration",
       line3: "Built-in features & Plugins",
       line4: "Intuitive Interface",
-      onClicks: () => {
-        window.location.href = "/services/e-commerce/wooCommerce";
-      },
+      onClicks:"/services/e-commerce/wooCommerce"
     },
   ];
 

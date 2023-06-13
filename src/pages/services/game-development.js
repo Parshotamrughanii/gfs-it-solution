@@ -12,10 +12,8 @@ const GameDevelopmentServices = () => {
       line2: "Incredible graphics",
       line3: "R/AR Support",
       line4: "Decentralized Platform",
-      onClicks: () => {
-        window.location.href =
-          "/services/game-development/unity3d";
-      },
+      onClicks:"/services/game-development/unity3d"
+      
     },
     {
       icon: "Casual Games",
@@ -24,10 +22,8 @@ const GameDevelopmentServices = () => {
       line2: "Colorful Aesthetics",
       line3: "Immersive Gameplay",
       line4: "Short & Easy Game Levels",
-     onClicks: () => {
-        window.location.href =
-          "/services/game-development/casual-game";
-      },
+     onClicks:"/services/game-development/casual-game"
+      
     },
     {
       icon: "Unreal Engine",
@@ -36,10 +32,8 @@ const GameDevelopmentServices = () => {
       line2: "Platform-agonistic",
       line3: "Stunning Graphics",
       line4: "Open-source Code",
-     onClicks: () => {
-        window.location.href =
-          "/services/game-development/unreal-engine";
-      },
+     onClicks:"/services/game-development/unreal-engine"
+     
     },
     {
       icon: "Augmented Reality",
@@ -48,10 +42,7 @@ const GameDevelopmentServices = () => {
       line2: "Immersive animations",
       line3: "Feature-packed gameplay",
       line4: "In-game analytics",
-     onClicks: () => {
-        window.location.href =
-          "/services/game-development/augmented-reality";
-      },
+     onClicks:"/services/game-development/augmented-reality"
     },
     {
       icon: "Virtual Reality",
@@ -60,10 +51,8 @@ const GameDevelopmentServices = () => {
       line2: "World-class Gameplay",
       line3: "Highly Interactive",
       line4: "Intuitive Graphics",
-     onClicks: () => {
-        window.location.href =
-          "/services/game-development/virtual-reality";
-      },
+     onClicks:"/services/game-development/virtual-reality"
+      
     },
     {
       icon: "Metaverse",
@@ -72,10 +61,8 @@ const GameDevelopmentServices = () => {
       line2: "P2E Mechanics",
       line3: "Asset-trade",
       line4: "Smart Contract",
-     onClicks: () => {
-        window.location.href =
-          "/services/game-development/metaverse";
-      },
+     onClicks:"/services/game-development/metaverse"
+     
     },
   ];
 

@@ -11,6 +11,7 @@ import Style from '../src/styles/HomePageServices.module.css'
 import Head from "next/head";
 import { Navbar } from "./Navbar";
 import useIntersectionAnimations from "./UseIntersectionAnimations";
+import Link from "next/link";
 
 // import img from '../src/assets/images/inner-pages/mobile-app/bg.png'
 // import Technologies from "../../consulting/Technologies";
@@ -83,7 +84,7 @@ const ServiceHomePage = ({
     swipeToSlide: true,
     slidesToScroll: 1,
     autoplay: true,
-    arrows: false,
+    arrows: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -193,12 +194,13 @@ const ServiceHomePage = ({
                 {data.map((item) => {
                   return (
                     <>
+                    <Link href={item.onClicks}>
                       <div
                         style={{
                           background: mainBoxSliderBgColor,
                           cursor: "pointer",
                         }}
-                        onClick={item.onClicks}
+                    
                         className="main-boxs"
                       >
                         <div
@@ -226,6 +228,7 @@ const ServiceHomePage = ({
                           </h6>
                         </div>
                       </div>
+                      </Link>
                     </>
                   );
                 })}

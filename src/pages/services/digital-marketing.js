@@ -15,9 +15,7 @@ const DigitalMarketing = () => {
       line2: "URL optimization",
       line3: "Brand Awareness",
       line4: "Track able",
-      onClicks: () => {
-        window.location.href = "/services/digital-marketing/seo";
-      },
+      onClicks:"/services/digital-marketing/seo"
     },
     {
       icon: "kotlin-icon-512x512-0o0lfw0b 1 (1)",
@@ -26,9 +24,7 @@ const DigitalMarketing = () => {
       line2: "Track able",
       line3: "Instant Traffic",
       line4: "More Leads",
-      onClicks: () => {
-        window.location.href = "/services/digital-marketing/google-ppc";
-      },
+      onClicks:"/services/digital-marketing/google-ppc"
     },
     {
       icon: "digital-marketing 1",
@@ -37,10 +33,7 @@ const DigitalMarketing = () => {
       line2: "Brand recognization",
       line3: "Higher conversion rates",
       line4: "increased traffic",
-      onClicks: () => {
-        window.location.href =
-          "/services/digital-marketing/social-media-marketing";
-      },
+      onClicks:"/services/digital-marketing/social-media-marketing"
     },
     {
       icon: "email-marketing 1",
@@ -49,9 +42,7 @@ const DigitalMarketing = () => {
       line2: "Increase organic traffic",
       line3: "Cost-effective",
       line4: "Higher Credibility",
-      onClicks: () => {
-        window.location.href = "/services/digital-marketing/email-marketing";
-      },
+      onClicks:"/services/digital-marketing/email-marketing"
     },
     {
       icon: "android-icon-png-2 1 (2)",
@@ -60,9 +51,7 @@ const DigitalMarketing = () => {
       line2: "Higher Profitability",
       line3: "Customer Analytics",
       line4: "Reduced Costs",
-      onClicks: () => {
-        window.location.href = "/services/digital-marketing/mobile-marketing";
-      },
+      onClicks:"/services/digital-marketing/mobile-marketing"
     },
     {
       icon: "kotlin-icon-512x512-0o0lfw0b 1 (2)",
@@ -71,9 +60,7 @@ const DigitalMarketing = () => {
       line2: "SEO Optimization",
       line3: "More Impressions",
       line4: "Increased Revenues",
-      onClicks: () => {
-        window.location.href = "/services/digital-marketing/content-marketing";
-      },
+      onClicks:"/services/digital-marketing/content-marketing"
     },
 
     {
@@ -83,10 +70,7 @@ const DigitalMarketing = () => {
       line2: "Affiliate Marketplace",
       line3: "Highly Secure",
       line4: "Cost-effective",
-      onClicks: () => {
-        window.location.href =
-          "/services/digital-marketing/affiliate-marketing";
-      },
+      onClicks:"/services/digital-marketing/affiliate-marketing"
     },
   ];
 

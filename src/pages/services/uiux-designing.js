@@ -14,7 +14,7 @@ const UiUxDesigning = () => {
       line2: "Customization",
       line3: "Feature0enrich apps",
       line4: "Great user experience",
-      onClicks: ()=>window.location.href=('/services/uiux-designing/animation'),
+      onClicks: '/services/uiux-designing/uianimation',
     },
     {
       icon: "Product Design",
@@ -23,7 +23,7 @@ const UiUxDesigning = () => {
       line2: "Java Supported",
       line3: "Consistent and Supportive",
       line4: "Google Supported",
-         onClicks: ()=>window.location.href=('/services/uiux-designing/product-design'),
+         onClicks: '/services/uiux-designing/product-design',
     },
     {
       icon: "Design Testing",
@@ -32,7 +32,7 @@ const UiUxDesigning = () => {
       line2: "It’s all Widget Feature",
       line3: "Open-Source",
       line4: "High Community Support",
-         onClicks: ()=>window.location.href=('/services/uiux-designing/design-testing'),
+         onClicks: '/services/uiux-designing/design-testing',
     },
     {
       icon: "UX Research",
@@ -41,7 +41,7 @@ const UiUxDesigning = () => {
       line2: "Scalable",
       line3: "intuitive user interface",
       line4: "customer Base Analytics",
-         onClicks: ()=>window.location.href=('/services/uiux-designing/ux-research'),
+         onClicks: '/services/uiux-designing/ux-research',
     },
     {
       icon: "Brand Strategy",
@@ -50,7 +50,7 @@ const UiUxDesigning = () => {
       line2: "Pre-built components",  
       line3: "Powerful command line interface",
       line4: "Cordova plugins",
-         onClicks: ()=>window.location.href=('/services/uiux-designing/brand-strategy'),
+         onClicks: '/services/uiux-designing/brand-strategy',
     },
   ];
 

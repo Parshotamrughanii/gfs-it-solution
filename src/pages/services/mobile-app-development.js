@@ -14,7 +14,7 @@ const MobileAppDevelopment = () => {
           line2: "Customization",
           line3: "Feature0enrich apps",
           line4: "Great user experience",
-          onClicks: ()=>{window.location.href=('/services/mobile-app-development/android-app-development')},
+          onClicks: '/services/mobile-app-development/android-app-development',
         },
         {
           icon: "Group 1297",
@@ -23,7 +23,7 @@ const MobileAppDevelopment = () => {
           line2: "Java Supported",
           line3: "Consistent and Supportive",
           line4: "Google Supported",
-          onClicks: ()=>{window.location.href=('/services/mobile-app-development/kotlin-app-development')},
+          onClicks: '/services/mobile-app-development/kotlin-app-development',
         },
         {
           icon: "flutter",
@@ -32,7 +32,7 @@ const MobileAppDevelopment = () => {
           line2: "It’s all Widget Feature",
           line3: "Open-Source",
           line4: "High Community Support",
-          onClicks: ()=>{window.location.href=('/services/mobile-app-development/flutter-app-development')},
+          onClicks: '/services/mobile-app-development/flutter-app-development',
         },
         {
           icon: "apple",
@@ -41,7 +41,7 @@ const MobileAppDevelopment = () => {
           line2: "Scalable",
           line3: "intuitive user interface",
           line4: "customer Base Analytics",
-          onClicks: ()=>{window.location.href=('/services/mobile-app-development/ios-app-development')},
+          onClicks: '/services/mobile-app-development/ios-app-development',
         },
         {
           icon: "ionic",
@@ -50,7 +50,7 @@ const MobileAppDevelopment = () => {
           line2: "Pre-built components",
           line3: "Powerful command line interface",
           line4: "Cordova plugins",
-          onClicks: ()=>{window.location.href=('/services/mobile-app-development/ionic-app-development')},
+          onClicks: '/services/mobile-app-development/ionic-app-development',
         },
         {
           icon: "xamarin",
@@ -59,7 +59,7 @@ const MobileAppDevelopment = () => {
           line2: "No Errors or Bugs",
           line3: "Better User Interface",
           line4: "Shared Coding",
-          onClicks: ()=>{window.location.href=('/services/mobile-app-development/xamarin-app-development')},
+          onClicks: '/services/mobile-app-development/xamarin-app-development',
         },
         {
           icon: "hybrid",
@@ -68,7 +68,7 @@ const MobileAppDevelopment = () => {
           line2: "Multi-platform Support",
           line3: "Customer Oriented",
           line4: "Customized Marketing Tool",
-          onClicks: ()=>{window.location.href=('/services/mobile-app-development/hybrid-app-development')},
+          onClicks: '/services/mobile-app-development/hybrid-app-development',
         },
         {
           icon: "swift",
@@ -77,7 +77,7 @@ const MobileAppDevelopment = () => {
           line2: "Highly Secured",
           line3: "Low Maintenance",
           line4: "High Performance",
-          onClicks: ()=>{window.location.href=('/services/mobile-app-development/swift-app-development')},
+          onClicks: '/services/mobile-app-development/swift-app-development',
         },
         {
           icon: "react-native",
@@ -86,7 +86,7 @@ const MobileAppDevelopment = () => {
           line2: "Java script supported",
           line3: "Code Reusability",
           line4: "Third-Party Plugins",
-          onClicks: ()=>{window.location.href=('/services/mobile-app-development/react-native-app-development')},
+          onClicks: '/services/mobile-app-development/react-native-app-development',
         },
       ];
     

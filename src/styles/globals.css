@@ -56,6 +56,9 @@ img, svg {
   height: auto;
   max-width: 100%;
 }
+a{
+  text-decoration: none;
+}
 
 /* Animations animated */
 @keyframes swipeRight {
