@@ -2469,6 +2469,7 @@ max-height: 550px;
 
 .empowering-section img {
   height: 430px;
+  max-width: initial;
 }
 .empowering-box {
   display: flex;

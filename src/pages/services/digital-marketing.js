@@ -256,7 +256,7 @@ const DigitalMarketing = () => {
             marketing limelight today!
           </span>
         }
-        image1="fashion"
+        image1="fashion2"
         title2="Tech & Innovation"
         description2={
           <span>

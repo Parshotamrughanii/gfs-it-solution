@@ -260,7 +260,7 @@ const WebsiteDevelopment = () => {
             future.
           </span>
         }
-        image1="Rectangle 9410"
+        image1="Education2"
         title2="Games and Entertainment"
         description2={
           <span>
@@ -288,7 +288,7 @@ const WebsiteDevelopment = () => {
             possibilities are as limitless as the horizon itself.
           </span>
         }
-        image3="Travel and Tourism"
+        image3="Travel and Tourism2"
         title4="Logistics"
         description4={
           <span>
@@ -302,7 +302,7 @@ const WebsiteDevelopment = () => {
             their competitors in the wake!
           </span>
         }
-        image4="Logistics"
+        image4="Logistics2"
         title5="Manufacturing"
         description5={
           <span>
