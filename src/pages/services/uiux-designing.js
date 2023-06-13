@@ -14,7 +14,7 @@ const UiUxDesigning = () => {
       line2: "Customization",
       line3: "Feature0enrich apps",
       line4: "Great user experience",
-      onClicks: ()=>window.location.href=('/services/uiux-designing/ui-animation'),
+      onClicks: ()=>window.location.href=('/services/uiux-designing/animation'),
     },
     {
       icon: "Product Design",

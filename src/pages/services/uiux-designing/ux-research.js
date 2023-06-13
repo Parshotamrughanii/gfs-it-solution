@@ -82,7 +82,7 @@ const relatedServiceData = [
     line2: "Customization",
     line3: "Feature0enrich apps",
     line4: "Great user experience",
-    path: "/services/uiux-designing/ui-animation",
+    path: "/services/uiux-designing/animation",
   },
 ];
 const UXResearch = () => {
