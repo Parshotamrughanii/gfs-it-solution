@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 export default function App({ Component, pageProps }) {
   const currentPath = useRouter().asPath;
-  const currPath = `https://gfsitsolutions.com/${currentPath}`;
+  const currPath = `https://gfsitsolutions.com${currentPath}`;
   return (
     <>
       <Head>
