@@ -11,11 +11,10 @@ import { useRouter } from "next/router";
 
 const services = () => {
   UseIntersectionAnimations()
-  const currentPath = useRouter().asPath;
   return (
     <div>
       <Head>
-      <link rel="canonical" href={currentPath} /> 
+     
       <title>GFS IT Solutions</title>
       </Head>
       <Navbar />

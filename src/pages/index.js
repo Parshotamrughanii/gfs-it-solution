@@ -30,12 +30,10 @@ export default function Home() {
     autoplay: true,
     arrows: true,
   };
-  const currentPath = useRouter().asPath;
-  console.log(currentPath)
+
   return (
     <>
       <Head>
-      <link rel="canonical" href={currentPath} /> 
       <title>GFS IT Solutions | App Development | NFT Creator | Digital Marketing Company</title>
       <meta name="description" content="At GFS IT Solutions, we provide world-class software development services that are customized to the specific requirements of startups, SMBs, & enterprise-size businesses." />
       
